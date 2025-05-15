@@ -1,0 +1,46 @@
+{
+  "AAPL": {
+    "support_levels": [
+      198.53
+    ],
+    "resistance_levels": [],
+    "direction": "bearish",
+    "key_insights": "Concerns about Google's contract with Apple and its AI capabilities have caused a negative impact on Apple's stock.",
+    "risk_factors": "Potential loss of contracts and market share due to competition.",
+    "price_targets": []
+  },
+  "GOOGL": {
+    "support_levels": [],
+    "resistance_levels": [],
+    "direction": "bearish",
+    "key_insights": "Google's stock dropped 7.5%, dragging down the communication services sector due to worries about its contract with Apple.",
+    "risk_factors": "Contractual uncertainties and competition in AI.",
+    "price_targets": []
+  },
+  "NVDA": {
+    "support_levels": [],
+    "resistance_levels": [],
+    "direction": "bullish",
+    "key_insights": "Nvidia had a decent day and is setting up a strong chart, indicating potential upward movement.",
+    "risk_factors": "Market volatility and dependency on sector performance.",
+    "price_targets": []
+  },
+  "CVX": {
+    "support_levels": [],
+    "resistance_levels": [],
+    "direction": "bearish",
+    "key_insights": "Chevron is experiencing a significant decline with an anemic bounce, indicating weakness in the stock.",
+    "risk_factors": "Oil market fluctuations and potential for rapid declines.",
+    "price_targets": []
+  },
+  "FLEX": {
+    "support_levels": [
+      37.9
+    ],
+    "resistance_levels": [],
+    "direction": "bullish",
+    "key_insights": "Flex is showing a strong chart pattern with high volume, indicating potential for upward movement if it holds above the support level.",
+    "risk_factors": "Possibility of gap down and volatility post-earnings.",
+    "price_targets": []
+  }
+}

@@ -1,6 +1,6 @@
 # Stock Context Agent Configuration
 
-# Retry settings
+### Retry settings
 RETRY_ATTEMPTS: 2
 RETRY_DELAY: 3
 

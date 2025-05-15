@@ -1,0 +1,34 @@
+{
+  "analysis_id": "20250513_181837",
+  "timestamp": "2025-05-13T18:18:37.341632",
+  "source": {
+    "type": "youtube_transcript",
+    "model": "gpt-4o-mini",
+    "version": "1.0"
+  },
+  "stocks": [
+    {
+      "symbol": "AAPL",
+      "last_close": 210.79,
+      "direction": "bullish",
+      "resistance_levels": [
+        212.45,
+        214.12,
+        218.63
+      ],
+      "support_levels": [
+        207.93,
+        205.8,
+        200.57
+      ],
+      "indicators": [
+        "MACD",
+        "RSI",
+        "Moving Averages",
+        "Stochastic Oscillator"
+      ],
+      "sentiment": "bullish",
+      "summary": "AAPL is currently trading at $210.79, above previous closing prices, indicating a bullish pattern. The stock is above the 20-day moving average but below the 50, 100, and 200-day moving averages, suggesting selling pressure. Key support levels are at 207.93, 205.8, and 200.57, while resistance levels are at 212.45, 214.12, and 218.63. The RSI is at 54.92, indicating rising momentum."
+    }
+  ]
+}
