@@ -1,0 +1,647 @@
+2025-05-11 10:34:35,120 - __main__ - INFO - Starting stock price context generation workflow
+2025-05-11 10:34:35,120 - __main__ - INFO - Initializing CrewAI workflow at 2025-05-11 10:34:35.120046
+2025-05-11 10:34:35,120 - __main__ - INFO - Checking required packages...
+2025-05-11 10:34:35,126 - __main__ - ERROR - Outdated packages: crewai (installed: 0.119.0, required: 0.11.0), yfinance (installed: 0.2.59, required: 0.2.35), tqdm (installed: 4.67.1, required: 4.66.1)
+2025-05-11 10:34:35,126 - __main__ - ERROR - Error in workflow execution: Package requirements not met. Please check the logs for details.
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 72, in setup_context_workflow
+    check_requirements()
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 56, in check_requirements
+    raise EnvironmentError("Package requirements not met. Please check the logs for details.")
+OSError: Package requirements not met. Please check the logs for details.
+2025-05-11 10:34:35,131 - __main__ - ERROR - Error in context workflow: Package requirements not met. Please check the logs for details.
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 120, in <module>
+    results = setup_context_workflow()
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 72, in setup_context_workflow
+    check_requirements()
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 56, in check_requirements
+    raise EnvironmentError("Package requirements not met. Please check the logs for details.")
+OSError: Package requirements not met. Please check the logs for details.
+2025-05-11 10:34:35,133 - __main__ - INFO - Workflow execution finished
+2025-05-11 10:36:05,275 - __main__ - INFO - Starting stock price context generation workflow
+2025-05-11 10:36:05,276 - __main__ - INFO - Initializing CrewAI workflow at 2025-05-11 10:36:05.276233
+2025-05-11 10:36:05,276 - __main__ - INFO - Checking required packages...
+2025-05-11 10:36:05,278 - __main__ - INFO - Package crewai version 0.119.0 meets minimum requirement of 0.11.0
+2025-05-11 10:36:05,280 - __main__ - INFO - Package yfinance version 0.2.59 meets minimum requirement of 0.2.35
+2025-05-11 10:36:05,282 - __main__ - INFO - Package tqdm version 4.67.1 meets minimum requirement of 4.66.1
+2025-05-11 10:36:05,282 - __main__ - INFO - All required packages are installed with correct versions
+2025-05-11 10:36:05,283 - __main__ - INFO - Creating ContextAgent instance
+2025-05-11 10:36:05,295 - __main__ - INFO - Creating task for stock price fetching for date: 2025-05-11
+2025-05-11 10:36:05,296 - __main__ - ERROR - Error in workflow execution: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value={'date': '2025-05-11'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 88, in setup_context_workflow
+    context_task = Task(
+                   ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value={'date': '2025-05-11'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2025-05-11 10:36:05,364 - __main__ - ERROR - Error in context workflow: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value={'date': '2025-05-11'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 127, in <module>
+    results = setup_context_workflow()
+              ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 88, in setup_context_workflow
+    context_task = Task(
+                   ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value={'date': '2025-05-11'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2025-05-11 10:36:05,374 - __main__ - INFO - Workflow execution finished
+2025-05-11 11:22:29,448 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 11:22:29,448 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 11:22:29,450 - __main__ - INFO - Starting workflow execution at 2025-05-11 11:22:29.450015
+2025-05-11 11:22:29,450 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 11:22:29,457 - __main__ - ERROR - Workflow execution failed: 'ContextAgent' object has no attribute '__pydantic_fields_set__'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 109, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 71, in setup_task
+    agent=ContextAgent(),
+          ^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\context_agent.py", line 199, in __init__
+    self.config = {**self.DEFAULT_CONFIG, **dir_config}
+    ^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 996, in __setattr__
+    setattr_handler(self, name, value)  # call here to not memo on possibly unknown fields
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 99, in _model_field_setattr_handler
+    model.__pydantic_fields_set__.add(name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 986, in __getattr__
+    return super().__getattribute__(item)  # Raises AttributeError if appropriate
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ContextAgent' object has no attribute '__pydantic_fields_set__'
+2025-05-11 11:22:29,462 - __main__ - ERROR - Critical error in workflow: 'ContextAgent' object has no attribute '__pydantic_fields_set__'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 151, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 109, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 71, in setup_task
+    agent=ContextAgent(),
+          ^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\context_agent.py", line 199, in __init__
+    self.config = {**self.DEFAULT_CONFIG, **dir_config}
+    ^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 996, in __setattr__
+    setattr_handler(self, name, value)  # call here to not memo on possibly unknown fields
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 99, in _model_field_setattr_handler
+    model.__pydantic_fields_set__.add(name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 986, in __getattr__
+    return super().__getattribute__(item)  # Raises AttributeError if appropriate
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ContextAgent' object has no attribute '__pydantic_fields_set__'
+2025-05-11 11:22:29,463 - __main__ - INFO - Workflow process completed
+2025-05-11 11:23:56,889 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 11:23:56,889 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 11:23:56,889 - __main__ - INFO - Starting workflow execution at 2025-05-11 11:23:56.889994
+2025-05-11 11:23:56,889 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 11:23:56,896 - __main__ - ERROR - Workflow execution failed: 'ContextAgent' object has no attribute '__pydantic_fields_set__'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 109, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 71, in setup_task
+    agent=ContextAgent(),
+          ^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\context_agent.py", line 199, in __init__
+    self.config = {**self.DEFAULT_CONFIG, **dir_config}
+    ^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 996, in __setattr__
+    setattr_handler(self, name, value)  # call here to not memo on possibly unknown fields
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 99, in _model_field_setattr_handler
+    model.__pydantic_fields_set__.add(name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 986, in __getattr__
+    return super().__getattribute__(item)  # Raises AttributeError if appropriate
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ContextAgent' object has no attribute '__pydantic_fields_set__'
+2025-05-11 11:23:56,900 - __main__ - ERROR - Critical error in workflow: 'ContextAgent' object has no attribute '__pydantic_fields_set__'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 151, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 109, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 71, in setup_task
+    agent=ContextAgent(),
+          ^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\context_agent.py", line 199, in __init__
+    self.config = {**self.DEFAULT_CONFIG, **dir_config}
+    ^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 996, in __setattr__
+    setattr_handler(self, name, value)  # call here to not memo on possibly unknown fields
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 99, in _model_field_setattr_handler
+    model.__pydantic_fields_set__.add(name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 986, in __getattr__
+    return super().__getattribute__(item)  # Raises AttributeError if appropriate
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ContextAgent' object has no attribute '__pydantic_fields_set__'
+2025-05-11 11:23:56,904 - __main__ - INFO - Workflow process completed
+2025-05-11 11:53:55,521 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 11:53:55,521 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 11:53:55,521 - __main__ - INFO - Starting workflow execution at 2025-05-11 11:53:55.521317
+2025-05-11 11:53:55,521 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 11:53:55,527 - __main__ - ERROR - Workflow execution failed: "ContextAgent" object has no field "data_fetcher"
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 121, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 73, in setup_task
+    context_agent = ContextAgent(config=self.config)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\context_agent.py", line 214, in __init__
+    self.data_fetcher = StockDataFetcher(self.config)
+    ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 995, in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 1042, in _setattr_handler
+    raise ValueError(f'"{cls.__name__}" object has no field "{name}"')
+ValueError: "ContextAgent" object has no field "data_fetcher"
+2025-05-11 11:53:55,530 - __main__ - ERROR - Critical error in workflow: "ContextAgent" object has no field "data_fetcher"
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 195, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 121, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 73, in setup_task
+    context_agent = ContextAgent(config=self.config)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\context_agent.py", line 214, in __init__
+    self.data_fetcher = StockDataFetcher(self.config)
+    ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 995, in __setattr__
+    elif (setattr_handler := self._setattr_handler(name, value)) is not None:
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 1042, in _setattr_handler
+    raise ValueError(f'"{cls.__name__}" object has no field "{name}"')
+ValueError: "ContextAgent" object has no field "data_fetcher"
+2025-05-11 11:53:55,532 - __main__ - INFO - Workflow process completed
+2025-05-11 11:59:33,695 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 11:59:33,695 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 11:59:33,695 - __main__ - INFO - Starting workflow execution at 2025-05-11 11:59:33.695888
+2025-05-11 11:59:33,698 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 11:59:33,700 - __main__ - ERROR - Workflow execution failed: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value={'current_date': '2025-05...': 1, 'BATCH_SIZE': 50}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 121, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 80, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value={'current_date': '2025-05...': 1, 'BATCH_SIZE': 50}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2025-05-11 11:59:33,700 - __main__ - ERROR - Critical error in workflow: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value={'current_date': '2025-05...': 1, 'BATCH_SIZE': 50}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 195, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 121, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 80, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value={'current_date': '2025-05...': 1, 'BATCH_SIZE': 50}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2025-05-11 11:59:33,709 - __main__ - INFO - Workflow process completed
+2025-05-11 12:01:08,196 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 12:01:08,196 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 12:01:08,196 - __main__ - INFO - Starting workflow execution at 2025-05-11 12:01:08.196975
+2025-05-11 12:01:08,203 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 12:01:08,207 - __main__ - ERROR - Workflow execution failed: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 123, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 87, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:01:08,266 - __main__ - ERROR - Critical error in workflow: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 197, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 123, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 87, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:01:08,273 - __main__ - INFO - Workflow process completed
+2025-05-11 12:05:23,636 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 12:05:23,638 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 12:05:23,638 - __main__ - INFO - Starting workflow execution at 2025-05-11 12:05:23.638609
+2025-05-11 12:05:23,639 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 12:05:23,646 - __main__ - ERROR - Workflow execution failed: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 130, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 78, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:05:23,655 - __main__ - ERROR - Critical error in workflow: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 204, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 130, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 78, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:05:23,660 - __main__ - INFO - Workflow process completed
+2025-05-11 12:06:36,895 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 12:06:36,895 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 12:06:36,896 - __main__ - INFO - Starting workflow execution at 2025-05-11 12:06:36.896281
+2025-05-11 12:06:36,896 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 12:06:36,903 - __main__ - ERROR - Workflow execution failed: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 119, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 80, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:06:36,911 - __main__ - ERROR - Critical error in workflow: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 193, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 119, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 80, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:06:36,915 - __main__ - INFO - Workflow process completed
+2025-05-11 12:07:32,129 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 12:07:32,129 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 12:07:32,129 - __main__ - INFO - Starting workflow execution at 2025-05-11 12:07:32.129242
+2025-05-11 12:07:32,132 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 12:07:32,136 - __main__ - ERROR - Workflow execution failed: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value='Current date is 2025-05-...: 1\n  - BATCH_SIZE: 50', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 122, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 89, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value='Current date is 2025-05-...: 1\n  - BATCH_SIZE: 50', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2025-05-11 12:07:32,145 - __main__ - ERROR - Critical error in workflow: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value='Current date is 2025-05-...: 1\n  - BATCH_SIZE: 50', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 196, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 122, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 89, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value='Current date is 2025-05-...: 1\n  - BATCH_SIZE: 50', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2025-05-11 12:07:32,161 - __main__ - INFO - Workflow process completed
+2025-05-11 12:08:37,708 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 12:08:37,708 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 12:08:37,708 - __main__ - INFO - Starting workflow execution at 2025-05-11 12:08:37.708753
+2025-05-11 12:08:37,713 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 12:08:37,717 - __main__ - ERROR - Workflow execution failed: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 122, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 89, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:08:37,724 - __main__ - ERROR - Critical error in workflow: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 196, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 122, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 89, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:08:37,732 - __main__ - INFO - Workflow process completed
+2025-05-11 12:09:49,647 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 12:09:49,649 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 12:09:49,649 - __main__ - INFO - Starting workflow execution at 2025-05-11 12:09:49.649338
+2025-05-11 12:09:49,649 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 12:09:49,656 - __main__ - ERROR - Workflow execution failed: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value='\n                Curren...E: 50\n                ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 123, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 90, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value='\n                Curren...E: 50\n                ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2025-05-11 12:09:49,664 - __main__ - ERROR - Critical error in workflow: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value='\n                Curren...E: 50\n                ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 197, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 123, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 90, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for Task
+context
+  Input should be a valid list [type=list_type, input_value='\n                Curren...E: 50\n                ', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/list_type
+2025-05-11 12:09:49,675 - __main__ - INFO - Workflow process completed
+2025-05-11 12:12:17,115 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 12:12:17,115 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 12:12:17,115 - __main__ - INFO - Starting workflow execution at 2025-05-11 12:12:17.115282
+2025-05-11 12:12:17,115 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 12:12:17,126 - __main__ - ERROR - Workflow execution failed: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 126, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 93, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:12:17,132 - __main__ - ERROR - Critical error in workflow: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 200, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 126, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 93, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:12:17,138 - __main__ - INFO - Workflow process completed
+2025-05-11 12:13:15,967 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 12:13:15,971 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 12:13:15,971 - __main__ - INFO - Starting workflow execution at 2025-05-11 12:13:15.971681
+2025-05-11 12:13:15,971 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 12:13:15,974 - __main__ - ERROR - Workflow execution failed: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 126, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 93, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:13:15,982 - __main__ - ERROR - Critical error in workflow: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 200, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 126, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 93, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:13:15,989 - __main__ - INFO - Workflow process completed
+2025-05-11 12:14:53,354 - __main__ - INFO - Initializing stock data workflow
+2025-05-11 12:14:53,354 - __main__ - INFO - Workflow initialized for date: 2025-05-11
+2025-05-11 12:14:53,354 - __main__ - INFO - Starting workflow execution at 2025-05-11 12:14:53.354488
+2025-05-11 12:14:53,359 - __main__ - INFO - Setting up stock data collection task
+2025-05-11 12:14:53,366 - __main__ - ERROR - Workflow execution failed: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 126, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 93, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:14:53,431 - __main__ - ERROR - Critical error in workflow: 'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 200, in main
+    results = workflow.execute()
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 126, in execute
+    task = self.setup_task()
+           ^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\yahoo\tools\graph_manager.py", line 93, in setup_task
+    task = Task(
+           ^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\task.py", line 227, in process_model_config
+    return process_config(values, cls)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\crewai\utilities\config.py", line 19, in process_config
+    config = values.get("config", {})
+             ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+2025-05-11 12:14:53,438 - __main__ - INFO - Workflow process completed

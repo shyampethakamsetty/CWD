@@ -1,0 +1,34 @@
+# YouTube Fetcher Configuration
+
+# Time window configuration
+time_window:
+  # How many hours to look back from current time
+  hours_to_look_back: 24
+  # Optional: Specific start time in UTC (if not using hours_to_look_back)
+  # Format: "YYYY-MM-DD HH:MM:SS"
+  # start_time: "2024-03-20 00:00:00"
+  # Optional: Specific end time in UTC (if not using current time)
+  # Format: "YYYY-MM-DD HH:MM:SS"
+  # end_time: "2024-03-21 00:00:00"
+
+# Channel configuration
+channels:
+  - SPXInvesting
+  - absoluteandawesomeTrade
+  - SpicyTrade
+  - PhillipCapital
+  - ConvergentTrading
+  # Add more channels as needed
+
+# Fetcher settings
+fetcher_settings:
+  max_urls_per_channel: 50
+  request_delay: 1.0  # seconds
+  max_retries: 3
+  timeout: 30  # seconds
+  output_dir: "OUTPUTS"
+
+# API settings
+api_settings:
+  quota_limit: 10000  # Daily quota limit
+  quota_reset_time: "00:00:00"  # UTC time when quota resets 

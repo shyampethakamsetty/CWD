@@ -1,0 +1,33 @@
+{
+  "analysis_id": "20250513_181842",
+  "timestamp": "2025-05-13T18:18:42.921240",
+  "source": {
+    "type": "youtube_transcript",
+    "model": "gpt-4o-mini",
+    "version": "1.0"
+  },
+  "stocks": [
+    {
+      "symbol": "META",
+      "last_close": 639.43,
+      "direction": "bullish",
+      "resistance_levels": [
+        646.17,
+        652.92,
+        672.2
+      ],
+      "support_levels": [
+        626.89,
+        614.36,
+        595.8
+      ],
+      "indicators": [
+        "MACD",
+        "RSI",
+        "Moving Averages"
+      ],
+      "sentiment": "bullish",
+      "summary": "META is trading above its major moving averages, indicating bullish momentum. The current price is above the previous closing prices, and several support and resistance levels have been identified. The MACD and RSI values suggest an upward trend."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "analysis_id": "20250513_181844",
+  "timestamp": "2025-05-13T18:18:44.168727",
+  "source": {
+    "type": "youtube_transcript",
+    "model": "gpt-4o-mini",
+    "version": "1.0"
+  },
+  "stocks": []
+}

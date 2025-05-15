@@ -1,0 +1,42 @@
+{
+  "analysis_id": "20250513_181834",
+  "timestamp": "2025-05-13T18:18:34.918807",
+  "source": {
+    "type": "youtube_transcript",
+    "model": "gpt-4o-mini",
+    "version": "1.0"
+  },
+  "stock_analysis": {
+    "symbol": "NVDA",
+    "price": 123.0,
+    "direction": "bullish",
+    "sentiment": "bullish",
+    "sentiment_score": 0.75,
+    "resistance_levels": [123.9, 124.81, 127.53, 126.85, 127.65],
+    "support_levels": [121.18, 119.37, 116.65, 122.89, 120.77],
+    "technical_indicators": {
+      "macd": 2.29,
+      "rsi": 64.43,
+      "moving_averages": {
+        "20_day": 122.5,
+        "50_day": 125.0,
+        "100_day": 128.0,
+        "200_day": 130.0
+      }
+    },
+    "sector": "AI",
+    "related_stocks": ["AMD", "INTC"],
+    "summary": "NVDA is currently trading at 123.0, above previous closing prices, indicating a bullish pattern. It is above the 20-day moving average but below the 50, 100, and 200-day moving averages. Support levels are at 121.18, 119.37, and 116.65, while resistance levels are at 123.9, 124.81, and 127.53. The MACD shows an increasing value of 2.29, and the RSI is at 64.43, indicating bullish momentum.",
+    "key_points": [
+      "bullish pattern",
+      "above 20-day moving average",
+      "increasing MACD",
+      "bullish momentum"
+    ]
+  },
+  "embeddings": {
+    "summary": [0.1, 0.2, 0.3],
+    "technical": [0.4, 0.5, 0.6],
+    "sentiment": [0.7, 0.8, 0.9]
+  }
+}

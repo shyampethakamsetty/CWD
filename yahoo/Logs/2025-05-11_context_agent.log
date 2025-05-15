@@ -1,0 +1,121 @@
+2025-05-11 10:36:05,284 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 10:36:05,290 - context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 10:36:05,291 - context_agent - INFO - Configuration validation passed
+2025-05-11 10:36:05,292 - context_agent - INFO - Agent configured with batch size: 50
+2025-05-11 10:36:05,293 - context_agent - INFO - Number of symbols to process: 50
+2025-05-11 10:36:05,294 - context_agent - INFO - Output directory: Yahoo\Outputs
+2025-05-11 11:22:29,450 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 11:22:29,450 - context_agent - INFO - Log directory validated: Yahoo\Logs
+2025-05-11 11:22:29,451 - context_agent - INFO - Output directory validated: Yahoo\Outputs
+2025-05-11 11:22:29,456 - context_agent - ERROR - Error initializing ContextAgent: 'ContextAgent' object has no attribute '__pydantic_fields_set__'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\context_agent.py", line 199, in __init__
+    self.config = {**self.DEFAULT_CONFIG, **dir_config}
+    ^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 996, in __setattr__
+    setattr_handler(self, name, value)  # call here to not memo on possibly unknown fields
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 99, in _model_field_setattr_handler
+    model.__pydantic_fields_set__.add(name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 986, in __getattr__
+    return super().__getattribute__(item)  # Raises AttributeError if appropriate
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ContextAgent' object has no attribute '__pydantic_fields_set__'
+2025-05-11 11:23:56,889 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 11:23:56,892 - context_agent - INFO - Log directory validated: Yahoo\Logs
+2025-05-11 11:23:56,892 - context_agent - INFO - Output directory validated: Yahoo\Outputs
+2025-05-11 11:23:56,892 - context_agent - ERROR - Error initializing ContextAgent: 'ContextAgent' object has no attribute '__pydantic_fields_set__'
+Traceback (most recent call last):
+  File "D:\version1.0.0\yahoo\tools\context_agent.py", line 199, in __init__
+    self.config = {**self.DEFAULT_CONFIG, **dir_config}
+    ^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 996, in __setattr__
+    setattr_handler(self, name, value)  # call here to not memo on possibly unknown fields
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 99, in _model_field_setattr_handler
+    model.__pydantic_fields_set__.add(name)
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\version1.0.0\env\Lib\site-packages\pydantic\main.py", line 986, in __getattr__
+    return super().__getattribute__(item)  # Raises AttributeError if appropriate
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ContextAgent' object has no attribute '__pydantic_fields_set__'
+2025-05-11 11:53:55,523 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 11:53:55,525 - context_agent - INFO - Configuration validation successful
+2025-05-11 11:53:55,527 - context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 11:59:33,698 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 11:59:33,700 - context_agent - INFO - Configuration validation successful
+2025-05-11 11:59:33,700 - context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 11:59:33,700 - context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:01:08,203 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:01:08,203 - context_agent - INFO - Configuration validation successful
+2025-05-11 12:01:08,203 - context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:01:08,203 - context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:05:23,639 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:05:23,644 - context_agent - INFO - Configuration validation successful
+2025-05-11 12:05:23,645 - context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:05:23,645 - context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:06:36,896 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:06:36,899 - context_agent - INFO - Configuration validation successful
+2025-05-11 12:06:36,901 - context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:06:36,901 - context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:07:32,133 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:07:32,136 - context_agent - INFO - Configuration validation successful
+2025-05-11 12:07:32,136 - context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:07:32,136 - context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:08:37,713 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:08:37,716 - context_agent - INFO - Configuration validation successful
+2025-05-11 12:08:37,717 - context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:08:37,717 - context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:09:49,649 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:09:49,651 - context_agent - INFO - Configuration validation successful
+2025-05-11 12:09:49,656 - context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:09:49,656 - context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:12:17,121 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:12:17,121 - context_agent - INFO - Configuration validation successful
+2025-05-11 12:12:17,121 - context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:12:17,125 - context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:13:15,972 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:13:15,974 - context_agent - INFO - Configuration validation successful
+2025-05-11 12:13:15,974 - context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:13:15,974 - context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:14:53,359 - context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:14:53,363 - context_agent - INFO - Configuration validation successful
+2025-05-11 12:14:53,363 - context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:14:53,364 - context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:16:44,697 - Tools.context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:16:44,699 - Tools.context_agent - INFO - Configuration validation successful
+2025-05-11 12:16:44,699 - Tools.context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:16:44,699 - Tools.context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:16:44,699 - Tools.context_agent - INFO - Executing task: Fetch latest stock prices
+2025-05-11 12:16:44,702 - Tools.context_agent - INFO - Log directory validated: Yahoo\Logs
+2025-05-11 12:16:44,702 - Tools.context_agent - INFO - Output directory validated: Yahoo\Outputs
+2025-05-11 12:16:44,702 - Tools.context_agent - INFO - Symbol list validation successful. Total symbols: 5
+2025-05-11 12:16:56,449 - Tools.context_agent - INFO - Successfully saved data to Yahoo\Outputs\2025-05-11_stock_last_close.json
+2025-05-11 12:21:30,563 - Tools.context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:21:30,569 - Tools.context_agent - INFO - Configuration validation successful
+2025-05-11 12:21:30,569 - Tools.context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:21:30,569 - Tools.context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:21:30,569 - Tools.context_agent - INFO - Executing task: Fetch latest stock prices
+2025-05-11 12:21:30,574 - Tools.context_agent - INFO - Log directory validated: Yahoo\Logs
+2025-05-11 12:21:30,574 - Tools.context_agent - INFO - Output directory validated: Yahoo\Outputs
+2025-05-11 12:21:30,576 - Tools.context_agent - INFO - Symbol list validation successful. Total symbols: 5
+2025-05-11 12:21:35,617 - Tools.context_agent - INFO - Successfully saved data to Yahoo\Outputs\2025-05-11_stock_last_close.json
+2025-05-11 12:22:59,131 - Tools.context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:22:59,135 - Tools.context_agent - INFO - Configuration validation successful
+2025-05-11 12:22:59,135 - Tools.context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:22:59,135 - Tools.context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:22:59,138 - Tools.context_agent - INFO - Executing task: Fetch latest stock prices
+2025-05-11 12:22:59,139 - Tools.context_agent - INFO - Log directory validated: Yahoo\Logs
+2025-05-11 12:22:59,139 - Tools.context_agent - INFO - Output directory validated: Yahoo\Outputs
+2025-05-11 12:22:59,139 - Tools.context_agent - INFO - Symbol list validation successful. Total symbols: 50
+2025-05-11 12:23:35,891 - Tools.context_agent - INFO - Successfully saved data to Yahoo\Outputs\2025-05-11_stock_last_close.json
+2025-05-11 12:47:40,396 - Tools.context_agent - INFO - Initializing ContextAgent
+2025-05-11 12:47:40,396 - Tools.context_agent - INFO - Configuration validation successful
+2025-05-11 12:47:40,406 - Tools.context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-11 12:47:40,406 - Tools.context_agent - INFO - ContextAgent initialized successfully
+2025-05-11 12:47:40,406 - Tools.context_agent - INFO - Executing task: Fetch latest stock prices
+2025-05-11 12:47:40,406 - Tools.context_agent - INFO - Log directory validated: Yahoo\Logs
+2025-05-11 12:47:40,406 - Tools.context_agent - INFO - Output directory validated: Yahoo\Outputs
+2025-05-11 12:47:40,406 - Tools.context_agent - INFO - Symbol list validation successful. Total symbols: 50
+2025-05-11 12:48:17,041 - Tools.context_agent - INFO - Successfully saved data to Yahoo\Outputs\2025-05-11_stock_last_close.json

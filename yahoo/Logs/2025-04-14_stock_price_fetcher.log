@@ -1,0 +1,55 @@
+2025-04-14 18:14:34,459 - INFO - Starting script with log file: Yahoo\Logs\2025-04-14_stock_price_fetcher.log
+2025-04-14 18:14:34,459 - INFO - Output directory: Yahoo\Outputs
+2025-04-14 18:14:34,459 - INFO - Starting stock data collection process
+2025-04-14 18:14:42,040 - INFO - Successfully fetched AAPL Last Close: 198.14999389648438
+2025-04-14 18:14:43,687 - INFO - Successfully fetched MSFT Last Close: 388.45001220703125
+2025-04-14 18:14:44,996 - INFO - Successfully fetched AMZN Last Close: 184.8699951171875
+2025-04-14 18:14:46,338 - INFO - Successfully fetched GOOGL Last Close: 157.13999938964844
+2025-04-14 18:14:48,426 - INFO - Successfully fetched META Last Close: 543.5700073242188
+2025-04-14 18:14:49,685 - INFO - Successfully fetched TSLA Last Close: 252.30999755859375
+2025-04-14 18:14:51,054 - INFO - Successfully fetched NVDA Last Close: 110.93000030517578
+2025-04-14 18:14:52,305 - INFO - Successfully fetched PYPL Last Close: 62.59000015258789
+2025-04-14 18:14:53,618 - INFO - Successfully fetched INTC Last Close: 19.739999771118164
+2025-04-14 18:14:55,042 - INFO - Successfully fetched CMCSA Last Close: 33.720001220703125
+2025-04-14 18:14:56,319 - INFO - Successfully fetched NFLX Last Close: 918.2899780273438
+2025-04-14 18:14:57,800 - INFO - Successfully fetched ADBE Last Close: 352.4700012207031
+2025-04-14 18:14:59,143 - INFO - Successfully fetched PEP Last Close: 144.42999267578125
+2025-04-14 18:15:00,436 - INFO - Successfully fetched CSCO Last Close: 57.33000183105469
+2025-04-14 18:15:02,433 - INFO - Successfully fetched AVGO Last Close: 181.94000244140625
+2025-04-14 18:15:04,358 - INFO - Successfully fetched TXN Last Close: 147.60000610351562
+2025-04-14 18:15:05,621 - INFO - Successfully fetched COST Last Close: 963.4099731445312
+2025-04-14 18:15:07,191 - INFO - Successfully fetched TMUS Last Close: 258.6700134277344
+2025-04-14 18:15:08,835 - INFO - Successfully fetched AMGN Last Close: 285.9800109863281
+2025-04-14 18:15:10,373 - INFO - Successfully fetched SBUX Last Close: 85.43000030517578
+2025-04-14 18:15:11,780 - INFO - Successfully fetched QCOM Last Close: 139.25
+2025-04-14 18:15:13,140 - INFO - Successfully fetched GILD Last Close: 103.62999725341797
+2025-04-14 18:15:14,459 - INFO - Successfully fetched MDLZ Last Close: 67.05000305175781
+2025-04-14 18:15:15,771 - INFO - Successfully fetched INTU Last Close: 587.0399780273438
+2025-04-14 18:15:16,993 - INFO - Successfully fetched ISRG Last Close: 493.6000061035156
+2025-04-14 18:15:18,354 - INFO - Successfully fetched VRTX Last Close: 484.2200012207031
+2025-04-14 18:15:19,685 - INFO - Successfully fetched REGN Last Close: 554.1799926757812
+2025-04-14 18:15:21,082 - INFO - Successfully fetched ILMN Last Close: 74.77999877929688
+2025-04-14 18:15:22,427 - INFO - Successfully fetched ADI Last Close: 179.16000366210938
+2025-04-14 18:15:23,868 - INFO - Successfully fetched CSX Last Close: 28.010000228881836
+2025-04-14 18:15:25,517 - INFO - Successfully fetched MU Last Close: 69.55000305175781
+2025-04-14 18:15:26,760 - INFO - Successfully fetched BKNG Last Close: 4586.52978515625
+2025-04-14 18:15:28,016 - INFO - Successfully fetched AMAT Last Close: 144.94000244140625
+2025-04-14 18:15:29,434 - INFO - Successfully fetched ADP Last Close: 299.5400085449219
+2025-04-14 18:15:30,701 - INFO - Successfully fetched MNST Last Close: 58.150001525878906
+2025-04-14 18:15:32,000 - INFO - Successfully fetched MELI Last Close: 1996.949951171875
+2025-04-14 18:15:33,264 - INFO - Successfully fetched ADSK Last Close: 258.45001220703125
+2025-04-14 18:15:34,553 - INFO - Successfully fetched JD Last Close: 36.41999816894531
+2025-04-14 18:15:35,831 - INFO - Successfully fetched LRCX Last Close: 67.4800033569336
+2025-04-14 18:15:37,105 - INFO - Successfully fetched EBAY Last Close: 64.58000183105469
+2025-04-14 18:15:38,400 - INFO - Successfully fetched KHC Last Close: 29.329999923706055
+2025-04-14 18:15:39,658 - INFO - Successfully fetched BIIB Last Close: 115.16999816894531
+2025-04-14 18:15:40,901 - INFO - Successfully fetched LULU Last Close: 261.0299987792969
+2025-04-14 18:15:42,166 - INFO - Successfully fetched EA Last Close: 142.92999267578125
+2025-04-14 18:15:43,430 - INFO - Successfully fetched WDAY Last Close: 226.50999450683594
+2025-04-14 18:15:44,782 - INFO - Successfully fetched PCAR Last Close: 90.47000122070312
+2025-04-14 18:15:46,262 - INFO - Successfully fetched DXCM Last Close: 66.13999938964844
+2025-04-14 18:15:47,695 - INFO - Successfully fetched CTSH Last Close: 70.16999816894531
+2025-04-14 18:15:48,962 - INFO - Successfully fetched MRVL Last Close: 53.38999938964844
+2025-04-14 18:15:49,965 - INFO - Successfully saved data to Yahoo\Outputs\2025-04-14_stock_last_close.json
+2025-04-14 18:15:49,968 - INFO - 
+Successfully processed 49 stocks

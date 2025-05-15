@@ -1,0 +1,19 @@
+2025-05-10 00:09:09,319 - INFO - All video information has been saved to 'D:\version1.0.0\OUTPUTS\2025-05-10'
+2025-05-10 00:09:09,324 - INFO - Total number of videos across all channels: 1
+2025-05-10 00:09:09,324 - INFO - 
+==================================================
+2025-05-10 00:09:09,324 - INFO - === Statistics ===
+2025-05-10 00:09:09,324 - INFO - ==================================================
+2025-05-10 00:09:09,328 - INFO - Total channels processed: 1
+2025-05-10 00:09:09,328 - INFO - Total videos collected: 1
+2025-05-10 00:09:09,331 - INFO - Total views: 225
+2025-05-10 00:09:09,332 - INFO - Total likes: 16
+2025-05-10 00:09:09,333 - INFO - Total comments: 15
+2025-05-10 00:09:09,336 - INFO - Total subscribers: 11100
+2025-05-10 00:09:09,337 - INFO - Total video duration: 00:09
+2025-05-10 00:09:09,339 - INFO - View ratio: 2.03%
+2025-05-10 00:09:09,339 - INFO - Likes ratio: 7.11%
+2025-05-10 00:09:09,341 - INFO - Quota used: 0 units
+2025-05-10 00:09:09,341 - INFO - ==================================================
+
+2025-05-10 00:09:09,341 - INFO - Test completed successfully. Results saved to: D:\version1.0.0\OUTPUTS\2025-05-10

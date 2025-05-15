@@ -1,0 +1,64 @@
+# Stock Context Agent Configuration
+
+# Retry settings
+RETRY_ATTEMPTS: 2
+RETRY_DELAY: 3
+
+# Rate limiting
+RATE_LIMIT_DELAY: 0.5
+
+# Processing settings
+BATCH_SIZE: 5
+
+# symbols (50)
+SYMBOLS:
+  - AAPL
+  - MSFT
+  - GOOGL
+  - AMZN
+  - TSLA
+  - META
+  - NVDA
+  - PYPL
+  - INTC
+  - CMCSA
+  - NFLX
+  - ADBE
+  - PEP
+  - CSCO
+  - AVGO
+  - TXN
+  - COST
+  - TMUS
+  - AMGN
+  - SBUX
+  - QCOM
+  - GILD
+  - MDLZ
+  - INTU
+  - ISRG
+  - VRTX
+  - REGN
+  - ILMN
+  - ADI
+  - CSX
+  - MU
+  - BKNG
+  - AMAT
+  - ADP
+  - MNST
+  - MELI
+  - ADSK
+  - JD
+  - LRCX
+  - EBAY
+  - KHC
+  - BIIB
+  - LULU
+  - EA
+  - WDAY
+  - PCAR
+  - DXCM
+  - CTSH
+  - MRVL
+  - CRM

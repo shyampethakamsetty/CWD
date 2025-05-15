@@ -1,0 +1,25 @@
+crewai
+neo4j
+youtube_transcript_api
+spacy
+textblob
+transformers==4.36.2
+python-dotenv>=1.0.0
+openai>=1.68.2,<1.76.0
+tiktoken>=0.9.0
+beautifulsoup4
+requests
+yfinance
+# For CAG-RAG Agent
+langchain_openai
+sentence-transformers>=2.2.2
+scikit-learn>=1.3.0
+numpy==1.24.3
+tqdm>=4.65.0
+google-api-python-client
+pytz
+#en-core-web-sm (python -m spacy download en_core_web_sm)
+torch==2.1.2
+weaviate-client==3.25.2
+python-dotenv==1.0.0
+streamlit==1.32.0 
