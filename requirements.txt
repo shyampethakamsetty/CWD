@@ -22,4 +22,8 @@ pytz
 torch==2.1.2
 weaviate-client==3.25.2
 python-dotenv==1.0.0
-streamlit==1.32.0 
+streamlit==1.32.0
+fastapi>=0.68.0
+uvicorn>=0.15.0
+python-dotenv>=0.19.0
+weaviate-client>=3.0.0 

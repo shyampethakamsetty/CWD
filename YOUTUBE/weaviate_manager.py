@@ -77,5 +77,5 @@ if __name__ == "__main__":
         clear_vector_data()
     elif args.clear == 'graph':
         clear_graph_data()
-    elif args.clear == 'all':
+    elif args.clear == 'all' or not args.clear:  # Clear all if no argument provided
         clear_all_data() 
