@@ -66,12 +66,28 @@
             margin: 5px 0;
             padding: 5px;
             border-bottom: 1px solid #eee;
+            font-family: monospace;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .log-entry .timestamp {
+            color: #666;
+            margin-right: 10px;
         }
         .log-entry.error {
             color: #dc3545;
+            background-color: #fff5f5;
+        }
+        .log-entry.warning {
+            color: #ffc107;
+            background-color: #fff8e1;
         }
         .log-entry.success {
             color: #28a745;
+            background-color: #f0fff4;
+        }
+        .log-entry.info {
+            color: #17a2b8;
         }
         .tool-buttons {
             display: grid;
@@ -106,13 +122,61 @@
     </div>
 
     <script>
-        const API_BASE_URL = 'http://localhost:8000';
-        
+        const API_BASE_URL = 'https://cwd-dq7n.onrender.com';
+        let ws = null;
+
+        function connectWebSocket() {
+            ws = new WebSocket(`wss://cwd-dq7n.onrender.com/ws`);
+            
+            ws.onopen = function() {
+                addLog('WebSocket connected', 'success');
+            };
+
+            ws.onclose = function() {
+                addLog('WebSocket disconnected. Reconnecting...', 'error');
+                setTimeout(connectWebSocket, 3000); // Reconnect after 3 seconds
+            };
+
+            ws.onerror = function(error) {
+                addLog(`WebSocket error: ${error.message}`, 'error');
+            };
+
+            ws.onmessage = function(event) {
+                const data = JSON.parse(event.data);
+                
+                switch(data.type) {
+                    case 'process_started':
+                        addLog(`Process started: ${data.data}`, 'info');
+                        break;
+                    case 'output':
+                        addLog(data.data, 'info');
+                        break;
+                    case 'warning':
+                        addLog(data.data, 'warning');
+                        break;
+                    case 'error':
+                        addLog(`Error: ${data.data}`, 'error');
+                        break;
+                    case 'process_complete':
+                        addLog(`Process completed: ${data.data}`, 'success');
+                        break;
+                    case 'chat_response':
+                        addChatMessage(JSON.stringify(data.data, null, 2));
+                        addLog('Chat response received', 'success');
+                        break;
+                }
+            };
+        }
+
         function addLog(message, type = 'info') {
             const logsDiv = document.getElementById('logs');
             const logEntry = document.createElement('div');
             logEntry.className = `log-entry ${type}`;
-            logEntry.textContent = `[${new Date().toLocaleTimeString()}] ${message}`;
+            
+            // Format the message with timestamp
+            const timestamp = new Date().toLocaleTimeString();
+            logEntry.innerHTML = `<span class="timestamp">[${timestamp}]</span> <span class="message">${message}</span>`;
+            
             logsDiv.appendChild(logEntry);
             logsDiv.scrollTop = logsDiv.scrollHeight;
         }
@@ -149,8 +213,9 @@
                 });
 
                 const data = await response.json();
-                addChatMessage(JSON.stringify(data, null, 2));
-                addLog('Query processed successfully', 'success');
+                if (data.status === 'processing') {
+                    addLog('Query processing started...', 'info');
+                }
             } catch (error) {
                 addLog(`Error: ${error.message}`, 'error');
                 addChatMessage('Error processing query. Please try again.');
@@ -164,8 +229,9 @@
                     method: 'POST',
                 });
                 const data = await response.json();
-                addLog(`${toolName} executed successfully`, 'success');
-                addChatMessage(`${toolName} results: ${JSON.stringify(data, null, 2)}`);
+                if (data.status === 'processing') {
+                    addLog(`${toolName} process started...`, 'info');
+                }
             } catch (error) {
                 addLog(`Error executing ${toolName}: ${error.message}`, 'error');
             }
@@ -178,8 +244,44 @@
             }
         });
 
+        // Initialize WebSocket connection when page loads
+        connectWebSocket();
+        
         // Initial log
         addLog('Frontend initialized and ready');
+
+        // Add some CSS for better log formatting
+        const style = document.createElement('style');
+        style.textContent = `
+            .log-entry {
+                margin: 5px 0;
+                padding: 5px;
+                border-bottom: 1px solid #eee;
+                font-family: monospace;
+                white-space: pre-wrap;
+                word-wrap: break-word;
+            }
+            .log-entry .timestamp {
+                color: #666;
+                margin-right: 10px;
+            }
+            .log-entry.error {
+                color: #dc3545;
+                background-color: #fff5f5;
+            }
+            .log-entry.warning {
+                color: #ffc107;
+                background-color: #fff8e1;
+            }
+            .log-entry.success {
+                color: #28a745;
+                background-color: #f0fff4;
+            }
+            .log-entry.info {
+                color: #17a2b8;
+            }
+        `;
+        document.head.appendChild(style);
     </script>
 </body>
 </html> 

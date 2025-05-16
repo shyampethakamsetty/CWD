@@ -5,7 +5,7 @@ crewai
 openai==1.12.0
 pandas==2.2.1
 python-dotenv==1.0.1
-uvicorn
+uvicorn[standard]>=0.24.0
 fastapi
 pytz==2024.1
 requests==2.31.0
@@ -14,3 +14,5 @@ weaviate-client==4.5.0
 yfinance==0.2.36
 youtube-transcript-api==0.6.2
 PyYAML==6.0.1
+websockets>=12.0
+gunicorn==21.2.0
