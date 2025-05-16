@@ -1,8 +1,11 @@
+from dotenv import load_dotenv
+load_dotenv()
 import os
 import sys
 import json
 import yaml
 from datetime import datetime
+from config.paths import PATHS
 
 # Add the parent directory to sys.path if needed
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -25,9 +28,7 @@ def test_context_agent():
     print("Starting ContextAgent test...")
     
     # Load configuration from YAML file
-    config_path = os.path.join('d:\\', 'version1.0.0', 'Yahoo', 'Config', 'agent_config.yaml')
-    # or alternatively use a raw string
-    # config_path = r'd:\version1.0.0\Yahoo\Config\agent_config.yaml'
+    config_path = PATHS['YAHOO']['CONFIG'] / 'agent_config.yaml'
     config = load_config(config_path)
     
     if not config:
@@ -52,7 +53,7 @@ def test_context_agent():
     
     # Check if data was saved correctly
     date_now = datetime.now().strftime('%Y-%m-%d')
-    output_file = os.path.join('Yahoo', 'Outputs', f'{date_now}_stock_last_close.json')
+    output_file = PATHS['YAHOO']['OUTPUTS'] / f'{date_now}_stock_last_close.json'
     
     if os.path.exists(output_file):
         print(f"Output file created successfully: {output_file}")

@@ -4,6 +4,7 @@ import glob
 from datetime import datetime
 import weaviate
 from dotenv import load_dotenv
+from config.paths import PATHS
 
 # Load environment variables
 load_dotenv()
@@ -213,12 +214,16 @@ def main():
     setup_schema()
     
     # Find the latest analysis directory
-    output_dirs = glob.glob("YOUTUBE/Outputs/*")
-    latest_dir = max(output_dirs, key=os.path.getctime)
-    analysis_dir = os.path.join(latest_dir, "analysis")
+    output_dirs = sorted(PATHS['YOUTUBE']['OUTPUTS'].glob('*'))
+    if not output_dirs:
+        print("No output directories found")
+        return
+        
+    latest_dir = output_dirs[-1]
+    analysis_dir = latest_dir / "analysis"
     
     # Process all analysis files
-    for file_path in glob.glob(os.path.join(analysis_dir, "*_analysis.json")):
+    for file_path in analysis_dir.glob("*_analysis.json"):
         print(f"Processing {file_path}")
         process_analysis_file(file_path)
 

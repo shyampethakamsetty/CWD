@@ -7,6 +7,7 @@ import glob
 from datetime import datetime
 import pandas as pd
 from typing import Dict, List, Any
+from config.paths import PATHS
 
 # Initialize logging
 logging.basicConfig(
@@ -14,7 +15,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.StreamHandler(),
-        logging.FileHandler('transcript_analysis.log')
+        logging.FileHandler(PATHS['YOUTUBE']['LOGS'] / 'transcript_analysis.log')
     ]
 )
 
@@ -50,7 +51,7 @@ class YouTubeTranscriptAnalyzer:
         """Load the latest close prices from historical data"""
         try:
             # Read the CSV file
-            df = pd.read_csv('YAHOO/Outputs/historical_stock_prices.csv')
+            df = pd.read_csv(PATHS['YAHOO']['OUTPUTS'] / 'historical_stock_prices.csv')
             
             # Get the latest date (last column)
             latest_date = df.columns[-1]

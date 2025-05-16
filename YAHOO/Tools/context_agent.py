@@ -11,6 +11,8 @@ from tqdm import tqdm
 import time
 import yaml
 import pandas as pd
+import random
+from config.paths import PATHS
 
 # Configure logging with more detailed formatting
 logger = logging.getLogger(__name__)
@@ -18,9 +20,8 @@ logger.setLevel(logging.INFO)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 
 # Setup logging directory and file
-log_dir = os.path.join('Yahoo', 'Logs')
-os.makedirs(log_dir, exist_ok=True)
-log_file = os.path.join(log_dir, f'{datetime.now().strftime("%Y-%m-%d")}_context_agent.log')
+log_dir = PATHS['YAHOO']['LOGS']
+log_file = log_dir / f'{datetime.now().strftime("%Y-%m-%d")}_context_agent.log'
 file_handler = logging.FileHandler(log_file)
 file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
@@ -36,18 +37,18 @@ class ConfigurationManager:
     def setup_directories() -> Dict[str, str]:
         """Create and validate necessary directories."""
         date_now = datetime.now().strftime('%Y-%m-%d')
-        log_dir = os.path.join('Yahoo', 'Logs')
-        output_dir = os.path.join('Yahoo', 'Outputs')
+        log_dir = PATHS['YAHOO']['LOGS']
+        output_dir = PATHS['YAHOO']['OUTPUTS']
         
         try:
-            os.makedirs(log_dir, exist_ok=True)
+            log_dir.mkdir(parents=True, exist_ok=True)
             logger.info(f"Log directory validated: {log_dir}")
-            os.makedirs(output_dir, exist_ok=True)
+            output_dir.mkdir(parents=True, exist_ok=True)
             logger.info(f"Output directory validated: {output_dir}")
             
             return {
-                'LOG_FILE': os.path.join(log_dir, f'{date_now}_stock_price_fetcher.log'),
-                'OUTPUT_DIR': output_dir,
+                'LOG_FILE': str(log_dir / f'{date_now}_stock_price_fetcher.log'),
+                'OUTPUT_DIR': str(output_dir),
                 'DATE': date_now
             }
         except Exception as e:
@@ -127,6 +128,12 @@ class StockDataFetcher:
         """Fetch last close price for a given symbol with retries."""
         for attempt in range(self.config['RETRY_ATTEMPTS']):
             try:
+                # Add exponential backoff delay
+                if attempt > 0:
+                    delay = self.config['RETRY_DELAY'] * (2 ** attempt)
+                    logger.info(f"Retry attempt {attempt + 1}, waiting {delay} seconds...")
+                    time.sleep(delay)
+                
                 stock = yf.Ticker(symbol)
                 history = stock.history(period="1d")
                 
@@ -154,16 +161,19 @@ class StockDataFetcher:
         """Process a batch of symbols with rate limiting."""
         batch_data = {}
         for symbol in tqdm(symbols_batch, desc="Processing batch", unit="stock"):
+            # Add random delay between requests
+            delay = random.uniform(2, 5)
+            time.sleep(delay)
+            
             last_close = self.fetch_last_close(symbol)
             if last_close is not None:
                 batch_data[symbol] = round(last_close, 2)
-            time.sleep(self.config['RATE_LIMIT_DELAY'])
         return batch_data
 
     def save_data(self, data: Dict[str, float], date: str) -> bool:
         """Save data to JSON file with error handling."""
         try:
-            filename = os.path.join(self.config['OUTPUT_DIR'], f'{date}_stock_last_close.json')
+            filename = PATHS['YAHOO']['OUTPUTS'] / f'{date}_stock_last_close.json'
             with open(filename, 'w') as f:
                 json.dump(data, f, indent=4)
             logger.info(f"Successfully saved data to {filename}")
@@ -176,7 +186,7 @@ class StockDataFetcher:
         """Update or create a historical CSV with last close prices for each symbol and date."""
         try:
             if csv_path is None:
-                csv_path = os.path.join(self.config['OUTPUT_DIR'], 'historical_stock_prices.csv')
+                csv_path = PATHS['YAHOO']['OUTPUTS'] / 'historical_stock_prices.csv'
             if os.path.exists(csv_path):
                 df = pd.read_csv(csv_path, index_col=0)
             else:

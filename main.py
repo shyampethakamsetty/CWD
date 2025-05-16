@@ -5,6 +5,9 @@ import sys
 from typing import Dict, Any
 import os
 from pydantic import BaseModel
+import sys
+print("PYTHON EXECUTABLE:", sys.executable)
+
 
 app = FastAPI(title="Stock Analysis API")
 

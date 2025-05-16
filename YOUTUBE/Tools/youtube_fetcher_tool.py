@@ -27,16 +27,18 @@ import threading
 from collections import defaultdict
 from dotenv import load_dotenv
 import yaml
+from config.paths import PATHS
+from pathlib import Path
 
 # Configure logging
-logs_dir = os.path.join(os.path.dirname(__file__), 'LOGS')
-os.makedirs(logs_dir, exist_ok=True)
+logs_dir = PATHS['YOUTUBE']['LOGS']
+logs_dir.mkdir(parents=True, exist_ok=True)
 
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler(os.path.join(logs_dir, 'youtube_fetcher.log'), encoding='utf-8'),
+        logging.FileHandler(logs_dir / 'youtube_fetcher.log', encoding='utf-8'),
         logging.StreamHandler()
     ]
 )
@@ -56,7 +58,7 @@ tqdm.pandas()
 
 def load_config() -> Dict:
     """Load configuration from YAML file"""
-    config_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), 'Config', 'youtube_config.yaml')
+    config_path = PATHS['YOUTUBE']['CONFIG'] / 'youtube_config.yaml'
     try:
         with open(config_path, 'r') as f:
             return yaml.safe_load(f)
@@ -117,9 +119,9 @@ class YouTubeFetcher:
         
         # Set output_dir from config if not provided
         if output_dir is None:
-            self.output_dir = os.path.join(os.path.dirname(__file__), config['fetcher_settings']['output_dir'])
+            self.output_dir = PATHS['YOUTUBE']['OUTPUTS']
         else:
-            self.output_dir = output_dir if os.path.isabs(output_dir) else os.path.join(os.path.dirname(__file__), output_dir)
+            self.output_dir = Path(output_dir) if os.path.isabs(output_dir) else PATHS['YOUTUBE']['OUTPUTS'] / output_dir
             
         # Set other parameters from config if not provided
         self.max_urls_per_channel = max_urls_per_channel or config['fetcher_settings']['max_urls_per_channel']
@@ -132,16 +134,15 @@ class YouTubeFetcher:
         self.est_tz = pytz.timezone('US/Eastern')
         
         # Output settings
-        self.base_dir = os.path.dirname(__file__)
-        os.makedirs(self.output_dir, exist_ok=True)
+        self.output_dir.mkdir(parents=True, exist_ok=True)
         
         # Initialize rate limiters
         self.api_rate_limiter = RateLimiter(calls_per_second=1.0)  # 1 call per second for API
         self.web_rate_limiter = RateLimiter(calls_per_second=2.0)  # 2 calls per second for web scraping
         
         # Initialize cache directory
-        self.cache_dir = os.path.join(self.base_dir, '.cache')
-        os.makedirs(self.cache_dir, exist_ok=True)
+        self.cache_dir = PATHS['YOUTUBE']['CACHE']
+        self.cache_dir.mkdir(parents=True, exist_ok=True)
         
         # Initialize quota tracking
         self.quota_used = 0
@@ -202,10 +203,10 @@ class YouTubeFetcher:
 
     def _get_video_statistics(self, video_id: str) -> Dict:
         """Get video statistics using YouTube Data API with caching and quota tracking"""
-        cache_file = os.path.join(self.cache_dir, f"stats_{video_id}.json")
+        cache_file = self.cache_dir / f"stats_{video_id}.json"
         
         # Check cache first
-        if os.path.exists(cache_file):
+        if cache_file.exists():
             try:
                 with open(cache_file, 'r') as f:
                     return json.load(f)
@@ -265,10 +266,10 @@ class YouTubeFetcher:
     @lru_cache(maxsize=1000)
     def _get_video_transcript(self, video_id: str) -> Optional[str]:
         """Get video transcript if available with caching"""
-        cache_file = os.path.join(self.cache_dir, f"transcript_{video_id}.txt")
+        cache_file = self.cache_dir / f"transcript_{video_id}.txt"
         
         # Check cache first
-        if os.path.exists(cache_file):
+        if cache_file.exists():
             try:
                 with open(cache_file, 'r', encoding='utf-8') as f:
                     return f.read()
@@ -305,10 +306,10 @@ class YouTubeFetcher:
         Returns:
             Optional[Dict]: Video details or None if failed to fetch
         """
-        cache_file = os.path.join(self.cache_dir, f"details_{video_id}.json")
+        cache_file = self.cache_dir / f"details_{video_id}.json"
         
         # Check cache first
-        if os.path.exists(cache_file):
+        if cache_file.exists():
             try:
                 with open(cache_file, 'r') as f:
                     return json.load(f)
@@ -661,19 +662,19 @@ class YouTubeFetcher:
         
         # Create directory structure based on current date
         current_date = datetime.now().strftime('%Y-%m-%d')
-        date_dir = os.path.join(self.output_dir, current_date)
-        transcripts_dir = os.path.join(date_dir, 'transcripts')
-        stats_dir = os.path.join(date_dir, 'stats')
+        date_dir = self.output_dir / current_date
+        transcripts_dir = date_dir / 'transcripts'
+        stats_dir = date_dir / 'stats'
         
         # Clean existing directories if they exist
         import shutil
         for directory in [date_dir, transcripts_dir, stats_dir]:
-            if os.path.exists(directory):
+            if directory.exists():
                 try:
                     shutil.rmtree(directory)
                 except Exception as e:
                     logger.warning(f"Failed to remove directory {directory}: {str(e)}")
-            os.makedirs(directory, exist_ok=True)
+            directory.mkdir(parents=True, exist_ok=True)
         
         # Save transcripts with metadata
         for video in all_videos:
@@ -693,7 +694,7 @@ class YouTubeFetcher:
                     },
                     'transcript': transcript
                 }
-                transcript_filename = os.path.join(transcripts_dir, f"{video['video_id']}.json")
+                transcript_filename = transcripts_dir / f"{video['video_id']}.json"
                 with open(transcript_filename, 'w', encoding='utf-8') as f:
                     json.dump(transcript_data, f, ensure_ascii=False, indent=2)
         
@@ -701,13 +702,13 @@ class YouTubeFetcher:
         statistics = self.calculate_statistics(all_videos)
         # Update statistics to include channel names
         statistics['channels'] = list(statistics['channels'].keys())
-        stats_filename = os.path.join(stats_dir, 'statistics.json')
+        stats_filename = stats_dir / 'statistics.json'
         with open(stats_filename, 'w', encoding='utf-8') as f:
             json.dump(statistics, f, ensure_ascii=False, indent=2)
         
         # Create a timestamped log file
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
-        log_filename = os.path.join(logs_dir, f"{timestamp}.log")
+        log_filename = logs_dir / f"{timestamp}.log"
         
         # Reconfigure logging to use the new log file
         for handler in logger.handlers[:]:
@@ -722,7 +723,7 @@ class YouTubeFetcher:
 
         self._display_statistics(statistics)
         
-        return date_dir
+        return str(date_dir)
 
     def _display_statistics(self, statistics: Dict):
         """Display statistics about the processed videos."""
