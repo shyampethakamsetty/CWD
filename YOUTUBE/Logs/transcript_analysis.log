@@ -1,0 +1,14 @@
+2025-05-17 19:46:13,991 - INFO - Starting transcript analysis
+2025-05-17 19:46:14,019 - INFO - Transcript analysis completed
+2025-05-17 19:46:25,629 - INFO - Starting transcript analysis
+2025-05-17 19:46:25,635 - INFO - Transcript analysis completed
+2025-05-17 19:48:28,598 - INFO - Starting transcript analysis
+2025-05-17 19:48:28,603 - INFO - Transcript analysis completed
+2025-05-17 19:50:05,668 - INFO - Starting transcript analysis
+2025-05-17 19:50:08,858 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-17 19:50:08,873 - INFO - Processed BdczzLwtxgU.json successfully
+2025-05-17 19:50:14,782 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-17 19:50:14,787 - INFO - Processed M4tTlmbn-ak.json successfully
+2025-05-17 19:50:15,680 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-17 19:50:15,684 - INFO - Processed njjReNm2m_M.json successfully
+2025-05-17 19:50:15,685 - INFO - Transcript analysis completed

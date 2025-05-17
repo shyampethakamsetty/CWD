@@ -3,7 +3,7 @@
 # Time window configuration
 time_window:
   # How many hours to look back from current time
-  hours_to_look_back: 24
+  hours_to_look_back: 48
   # Optional: Specific start time in UTC (if not using hours_to_look_back)
   # Format: "YYYY-MM-DD HH:MM:SS"
   # start_time: "2024-03-20 00:00:00"

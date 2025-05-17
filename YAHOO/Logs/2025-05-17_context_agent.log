@@ -1,0 +1,24 @@
+2025-05-17 19:06:49,495 - YAHOO.Tools.context_agent - INFO - Initializing ContextAgent
+2025-05-17 19:06:49,583 - YAHOO.Tools.context_agent - INFO - Configuration validation successful
+2025-05-17 19:06:49,584 - YAHOO.Tools.context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-17 19:06:49,585 - YAHOO.Tools.context_agent - INFO - ContextAgent initialized successfully
+2025-05-17 19:06:49,586 - YAHOO.Tools.context_agent - INFO - Executing task: Fetch latest stock prices
+2025-05-17 19:06:49,587 - YAHOO.Tools.context_agent - INFO - Log directory validated: D:\chat_with_rag\YAHOO\Logs
+2025-05-17 19:06:49,588 - YAHOO.Tools.context_agent - INFO - Output directory validated: D:\chat_with_rag\YAHOO\Outputs
+2025-05-17 19:06:49,590 - YAHOO.Tools.context_agent - INFO - Symbol list validation successful. Total symbols: 50
+2025-05-17 19:06:57,373 - YAHOO.Tools.context_agent - WARNING - No data available for AAPL
+2025-05-17 19:07:02,320 - YAHOO.Tools.context_agent - WARNING - No data available for MSFT
+2025-05-17 19:07:09,695 - YAHOO.Tools.context_agent - WARNING - No data available for GOOGL
+2025-05-17 19:07:14,827 - YAHOO.Tools.context_agent - WARNING - No data available for AMZN
+2025-05-17 19:07:20,093 - YAHOO.Tools.context_agent - WARNING - No data available for TSLA
+2025-05-17 19:07:27,735 - YAHOO.Tools.context_agent - WARNING - No data available for META
+2025-05-17 19:13:30,655 - YAHOO.Tools.context_agent - INFO - Initializing ContextAgent
+2025-05-17 19:13:30,714 - YAHOO.Tools.context_agent - INFO - Configuration validation successful
+2025-05-17 19:13:30,722 - YAHOO.Tools.context_agent - INFO - StockDataFetcher initialized with configuration
+2025-05-17 19:13:30,724 - YAHOO.Tools.context_agent - INFO - ContextAgent initialized successfully
+2025-05-17 19:13:30,725 - YAHOO.Tools.context_agent - INFO - Executing task: Fetch latest stock prices
+2025-05-17 19:13:30,726 - YAHOO.Tools.context_agent - INFO - Log directory validated: D:\chat_with_rag\YAHOO\Logs
+2025-05-17 19:13:30,727 - YAHOO.Tools.context_agent - INFO - Output directory validated: D:\chat_with_rag\YAHOO\Outputs
+2025-05-17 19:13:30,728 - YAHOO.Tools.context_agent - INFO - Symbol list validation successful. Total symbols: 50
+2025-05-17 19:16:48,426 - YAHOO.Tools.context_agent - INFO - Successfully saved data to D:\chat_with_rag\YAHOO\Outputs\2025-05-17_stock_last_close.json
+2025-05-17 19:16:48,450 - YAHOO.Tools.context_agent - INFO - Successfully updated historical CSV at D:\chat_with_rag\YAHOO\Outputs\historical_stock_prices.csv

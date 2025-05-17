@@ -1,0 +1,86 @@
+{
+  "analysis_id": "20250517_195014",
+  "timestamp": "2025-05-17T19:50:14.786200",
+  "source": {
+    "type": "youtube_transcript",
+    "model": "gpt-4o-mini",
+    "version": "1.0"
+  },
+  "stocks": [
+    {
+      "symbol": "AAPL",
+      "last_close": 211.26,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [
+        200
+      ],
+      "indicators": [
+        "RSI",
+        "MACD"
+      ],
+      "sentiment": "bearish",
+      "summary": "Apple was down and still dealing with its 50-day moving average."
+    },
+    {
+      "symbol": "MSFT",
+      "last_close": 454.27,
+      "direction": "neutral",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": null,
+      "summary": "Microsoft was barely up, but it's been doing well since they came out with their earnings report."
+    },
+    {
+      "symbol": "GOOGL",
+      "last_close": 166.19,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "bearish",
+      "summary": "Google was down and still below its 200-day moving average."
+    },
+    {
+      "symbol": "AMZN",
+      "last_close": 205.59,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "bearish",
+      "summary": "Amazon was down 2.42%."
+    },
+    {
+      "symbol": "TSLA",
+      "last_close": 349.98,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "bearish",
+      "summary": "Tesla is in a downtrend but above both moving averages."
+    },
+    {
+      "symbol": "META",
+      "last_close": 640.34,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "bearish",
+      "summary": "Meta is trying to give us a golden cross but was down 2.35%."
+    },
+    {
+      "symbol": "NVDA",
+      "last_close": 135.4,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "bearish",
+      "summary": "Nvidia is in a downtrend but back above both moving averages."
+    }
+  ]
+}

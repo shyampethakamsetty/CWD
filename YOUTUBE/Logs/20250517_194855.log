@@ -1,0 +1,19 @@
+2025-05-17 19:48:55,844 - INFO - All video information has been saved to 'D:\chat_with_rag\YOUTUBE\Outputs\2025-05-17'
+2025-05-17 19:48:55,846 - INFO - Total number of videos across all channels: 0
+2025-05-17 19:48:55,848 - INFO - 
+==================================================
+2025-05-17 19:48:55,850 - INFO - === Statistics ===
+2025-05-17 19:48:55,851 - INFO - ==================================================
+2025-05-17 19:48:55,852 - INFO - Total channels processed: 0
+2025-05-17 19:48:55,855 - INFO - Total videos collected: 0
+2025-05-17 19:48:55,856 - INFO - Total views: 0
+2025-05-17 19:48:55,858 - INFO - Total likes: 0
+2025-05-17 19:48:55,859 - INFO - Total comments: 0
+2025-05-17 19:48:55,860 - INFO - Total subscribers: 0
+2025-05-17 19:48:55,864 - INFO - Total video duration: 00:00
+2025-05-17 19:48:55,865 - INFO - View ratio: 0.00%
+2025-05-17 19:48:55,866 - INFO - Likes ratio: 0.00%
+2025-05-17 19:48:55,867 - INFO - Quota used: 0 units
+2025-05-17 19:48:55,869 - INFO - ==================================================
+
+2025-05-17 19:48:55,870 - INFO - Video collection completed successfully. Results saved to: D:\chat_with_rag\YOUTUBE\Outputs\2025-05-17

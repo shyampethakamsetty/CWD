@@ -5,12 +5,20 @@ import sys
 import json
 import yaml
 from datetime import datetime
-from config.paths import PATHS
 
-# Add the parent directory to sys.path if needed
-sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+# Add the root directory to sys.path
+root_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+sys.path.insert(0, root_dir)  # Using insert(0, ...) to ensure our path takes precedence
 
-from Tools.context_agent import ContextAgent
+try:
+    from config.paths import PATHS
+except ImportError as e:
+    print(f"Import error: {e}")
+    print(f"Python path: {sys.path}")
+    raise
+
+# Import using absolute path
+from YAHOO.Tools.context_agent import ContextAgent
 
 def load_config(config_path):
     """Load configuration from YAML file."""

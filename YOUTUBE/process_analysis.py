@@ -1,4 +1,9 @@
 import os
+import sys
+# Add the project root to sys.path
+root_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, root_dir)
+
 import json
 import glob
 from datetime import datetime
@@ -11,12 +16,21 @@ load_dotenv()
 
 # Weaviate client configuration
 weaviate_url = os.getenv("WEAVIATE_URL")
+weaviate_api_key = os.getenv("WEAVIATE_API_KEY")
+
+if not weaviate_url or not weaviate_api_key:
+    print("Error: WEAVIATE_URL and WEAVIATE_API_KEY must be set in your .env file")
+    print("Please add these variables to your .env file:")
+    print("WEAVIATE_URL=your_weaviate_url")
+    print("WEAVIATE_API_KEY=your_weaviate_api_key")
+    sys.exit(1)
+
 if not weaviate_url.startswith("https://"):
     weaviate_url = f"https://{weaviate_url}"
 
 client = weaviate.Client(
     url=weaviate_url,
-    auth_client_secret=weaviate.AuthApiKey(api_key=os.getenv("WEAVIATE_API_KEY")),
+    auth_client_secret=weaviate.AuthApiKey(api_key=weaviate_api_key),
     additional_headers={
         "X-OpenAI-Api-Key": os.getenv("OPENAI_API_KEY")
     }

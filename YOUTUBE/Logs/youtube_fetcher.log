@@ -1,0 +1,1366 @@
+2025-05-17 19:27:35,696 - INFO - YouTube API key loaded successfully
+2025-05-17 19:27:35,703 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-17 19:27:35,841 - INFO - 
+==================================================
+Starting video collection for 5 channels
+==================================================
+2025-05-17 19:27:35,877 - INFO - 
+==================================================
+Fetching videos for channel: SPXInvesting
+==================================================
+2025-05-17 19:27:35,878 - INFO - 
+==================================================
+Fetching videos for channel: absoluteandawesomeTrade
+==================================================
+2025-05-17 19:27:35,879 - INFO - 
+==================================================
+Fetching videos for channel: SpicyTrade
+==================================================
+2025-05-17 19:27:35,880 - INFO - 
+==================================================
+Fetching videos for channel: PhillipCapital
+==================================================
+2025-05-17 19:27:35,881 - INFO - 
+==================================================
+Fetching videos for channel: ConvergentTrading
+==================================================
+2025-05-17 19:27:40,676 - INFO - Current quota usage: 1 units
+2025-05-17 19:27:41,676 - INFO - Current quota usage: 2 units
+2025-05-17 19:27:42,677 - INFO - Current quota usage: 3 units
+2025-05-17 19:27:43,677 - INFO - Current quota usage: 4 units
+2025-05-17 19:27:43,992 - INFO - Collecting videos from 2025-05-16 13:57 UTC to 2025-05-17 13:57 UTC
+2025-05-17 19:27:43,993 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis MARCH 31 - APRIL 4, 2025 NATGAS
+2025-05-17 19:27:44,677 - INFO - Current quota usage: 5 units
+2025-05-17 19:27:45,678 - INFO - Current quota usage: 6 units
+2025-05-17 19:27:46,678 - INFO - Current quota usage: 7 units
+2025-05-17 19:27:47,679 - INFO - Current quota usage: 8 units
+2025-05-17 19:27:47,825 - INFO - Collecting videos from 2025-05-16 13:57 UTC to 2025-05-17 13:57 UTC
+2025-05-17 19:27:47,825 - INFO - [-] Video rejected: Outside weekly time window - May 16, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:27:48,679 - INFO - Current quota usage: 9 units
+2025-05-17 19:27:48,854 - INFO - Collecting videos from 2025-05-16 13:57 UTC to 2025-05-17 13:57 UTC
+2025-05-17 19:27:48,854 - INFO - [-] Video rejected: Outside weekly time window - Market Watch: Outlook on Gold
+2025-05-17 19:27:49,680 - INFO - Current quota usage: 10 units
+2025-05-17 19:27:49,839 - INFO - Collecting videos from 2025-05-16 13:57 UTC to 2025-05-17 13:57 UTC
+2025-05-17 19:27:49,840 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis MARCH 31 - APRIL 4, 2025 CRUDE OIL
+2025-05-17 19:27:50,681 - INFO - Current quota usage: 11 units
+2025-05-17 19:27:51,682 - INFO - Current quota usage: 12 units
+2025-05-17 19:27:52,682 - INFO - Current quota usage: 13 units
+2025-05-17 19:27:53,683 - INFO - Current quota usage: 14 units
+2025-05-17 19:27:53,838 - INFO - Collecting videos from 2025-05-16 13:57 UTC to 2025-05-17 13:57 UTC
+2025-05-17 19:27:53,838 - INFO - [-] Video rejected: Outside weekly time window - May 15, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:27:54,683 - INFO - Current quota usage: 15 units
+2025-05-17 19:27:54,838 - INFO - Collecting videos from 2025-05-16 13:57 UTC to 2025-05-17 13:57 UTC
+2025-05-17 19:27:54,838 - INFO - [-] Video rejected: Outside weekly time window - Behind the Shave: People of PhillipCapital Reveal What Hair for Hope Means to Them
+2025-05-17 19:27:55,684 - INFO - Current quota usage: 16 units
+2025-05-17 19:27:55,826 - INFO - Collecting videos from 2025-05-16 13:57 UTC to 2025-05-17 13:57 UTC
+2025-05-17 19:27:55,827 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis MARCH 31 - APRIL 4, 2024 XAU/USD GOLD
+2025-05-17 19:27:56,684 - INFO - Current quota usage: 17 units
+2025-05-17 19:27:57,685 - INFO - Current quota usage: 18 units
+2025-05-17 19:27:58,685 - INFO - Current quota usage: 19 units
+2025-05-17 19:27:58,817 - INFO - Collecting videos from 2025-05-16 13:57 UTC to 2025-05-17 13:57 UTC
+2025-05-17 19:27:58,818 - INFO - [-] Video rejected: Outside weekly time window - Discretion in the Target. Process in the Launch
+2025-05-17 19:27:59,686 - INFO - Current quota usage: 20 units
+2025-05-17 19:28:00,687 - INFO - Current quota usage: 21 units
+2025-05-17 19:28:00,846 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:00,847 - INFO - [-] Video rejected: Outside weekly time window - Meet POEMS GPT - Financial AI Investment Assistant Powered by Generative AI
+2025-05-17 19:28:01,687 - INFO - Current quota usage: 22 units
+2025-05-17 19:28:02,688 - INFO - Current quota usage: 23 units
+2025-05-17 19:28:02,827 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:02,827 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:28:03,688 - INFO - Current quota usage: 24 units
+2025-05-17 19:28:04,689 - INFO - Current quota usage: 25 units
+2025-05-17 19:28:04,842 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:04,842 - INFO - [-] Video rejected: Outside weekly time window - May 14, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:28:05,700 - INFO - Current quota usage: 26 units
+2025-05-17 19:28:06,700 - INFO - Current quota usage: 27 units
+2025-05-17 19:28:06,876 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:06,877 - INFO - [-] Video rejected: Outside weekly time window - 专业中文交易团队 | 提供全中文服务 | 轻松交易全球20多个国家及地区股票,马来西亚股、越南股、韩国股、印尼股、英国股、德国股、日本股等
+2025-05-17 19:28:07,701 - INFO - Current quota usage: 28 units
+2025-05-17 19:28:08,702 - INFO - Current quota usage: 29 units
+2025-05-17 19:28:08,854 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:08,854 - INFO - [-] Video rejected: Outside weekly time window - USDJPY Analysis Today | MARCH 17 - 21 2025 | USDJPY Weekly Forecast | USDJPY Technical Analysis
+2025-05-17 19:28:09,703 - INFO - Current quota usage: 30 units
+2025-05-17 19:28:10,703 - INFO - Current quota usage: 31 units
+2025-05-17 19:28:10,879 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:10,879 - INFO - [-] Video rejected: Outside weekly time window - May 9, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:28:11,703 - INFO - Current quota usage: 32 units
+2025-05-17 19:28:12,704 - INFO - Current quota usage: 33 units
+2025-05-17 19:28:12,841 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:12,842 - INFO - [-] Video rejected: Outside weekly time window - 辉立证券 | 创立于1975年 | 专业中文交易团队 | 提供全中文服务 | 一美元，轻松买入明星美股！解锁美股的无限投资潜力！
+2025-05-17 19:28:13,704 - INFO - Current quota usage: 34 units
+2025-05-17 19:28:14,705 - INFO - Current quota usage: 35 units
+2025-05-17 19:28:14,855 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:14,855 - INFO - [-] Video rejected: Outside weekly time window - EURUSD Analysis Today | MARCH 17 - 21 2025  | EURUSD Weekly Forecast | EURUSD Technical Analysis
+2025-05-17 19:28:15,705 - INFO - Current quota usage: 36 units
+2025-05-17 19:28:16,706 - INFO - Current quota usage: 37 units
+2025-05-17 19:28:16,865 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:16,866 - INFO - [-] Video rejected: Outside weekly time window - 2025 05 08   The Opening Swing
+2025-05-17 19:28:17,706 - INFO - Current quota usage: 38 units
+2025-05-17 19:28:18,707 - INFO - Current quota usage: 39 units
+2025-05-17 19:28:18,845 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:18,845 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】美英协议带动美股 比特币升破10万只是开始？ ｜芯片股业绩两极化 如何看待其前景? ｜辉立证券香港董事 黄玮杰先生（Louis Wong)、李明翰
+2025-05-17 19:28:19,708 - INFO - Current quota usage: 40 units
+2025-05-17 19:28:20,708 - INFO - Current quota usage: 41 units
+2025-05-17 19:28:20,841 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:20,842 - INFO - [-] Video rejected: Outside weekly time window - US30 Weekly Forecast | US30 Technical Analysis | DOW JONES Analysis | DOW JONES Daily Forecast
+2025-05-17 19:28:21,709 - INFO - Current quota usage: 42 units
+2025-05-17 19:28:22,709 - INFO - Current quota usage: 43 units
+2025-05-17 19:28:22,847 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:22,847 - INFO - [-] Video rejected: Outside weekly time window - May 7, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:28:23,709 - INFO - Current quota usage: 44 units
+2025-05-17 19:28:24,710 - INFO - Current quota usage: 45 units
+2025-05-17 19:28:24,837 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:24,838 - INFO - [-] Video rejected: Outside weekly time window - 如何在POEMS Mobile 3 App上设置数字密钥
+2025-05-17 19:28:25,711 - INFO - Current quota usage: 46 units
+2025-05-17 19:28:26,711 - INFO - Current quota usage: 47 units
+2025-05-17 19:28:26,839 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:26,840 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis MARCH 17 - 21, 2025 CRUDE OIL
+2025-05-17 19:28:27,712 - INFO - Current quota usage: 48 units
+2025-05-17 19:28:28,712 - INFO - Current quota usage: 49 units
+2025-05-17 19:28:28,835 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:28,836 - INFO - [-] Video rejected: Outside weekly time window - May 6, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:28:29,712 - INFO - Current quota usage: 50 units
+2025-05-17 19:28:30,713 - INFO - Current quota usage: 51 units
+2025-05-17 19:28:30,914 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:30,915 - INFO - [-] Video rejected: Outside weekly time window - How to set up Digital Token on POEMS Mobile 3 App?
+2025-05-17 19:28:31,718 - INFO - Current quota usage: 52 units
+2025-05-17 19:28:32,718 - INFO - Current quota usage: 53 units
+2025-05-17 19:28:32,854 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:32,855 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:28:33,718 - INFO - Current quota usage: 54 units
+2025-05-17 19:28:34,719 - INFO - Current quota usage: 55 units
+2025-05-17 19:28:34,851 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:34,852 - INFO - [-] Video rejected: Outside weekly time window - May 2, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:28:35,719 - INFO - Current quota usage: 56 units
+2025-05-17 19:28:36,720 - INFO - Current quota usage: 57 units
+2025-05-17 19:28:36,861 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:36,862 - INFO - [-] Video rejected: Outside weekly time window - Market Watch: Why S-REITs Shine Amid Market Volatility
+2025-05-17 19:28:37,720 - INFO - Current quota usage: 58 units
+2025-05-17 19:28:37,850 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:37,850 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis MARCH 17 - 21, 2024 XAU/USD GOLD
+2025-05-17 19:28:38,720 - INFO - Current quota usage: 59 units
+2025-05-17 19:28:39,721 - INFO - Current quota usage: 60 units
+2025-05-17 19:28:40,721 - INFO - Current quota usage: 61 units
+2025-05-17 19:28:40,893 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:40,894 - INFO - [-] Video rejected: Outside weekly time window - May 1, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:28:41,721 - INFO - Current quota usage: 62 units
+2025-05-17 19:28:41,876 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:41,876 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】恒指走势有突破? 该如何布局?｜中国狂卖黄金 加密货币可否作避险部署? ｜辉立证券香港董事 黄玮杰先生（Louis Wong)、华夏基金国际业务经理 程俊杰(Albert Cheng)
+2025-05-17 19:28:42,722 - INFO - Current quota usage: 63 units
+2025-05-17 19:28:42,842 - ERROR - Error getting statistics for video WQ6Ku7BTYIE: The read operation timed out
+2025-05-17 19:28:42,851 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:42,852 - INFO - [-] Video rejected: Outside weekly time window - iShares Russell 2000 ETF ( $IWM ) stock analysis
+2025-05-17 19:28:43,722 - INFO - Current quota usage: 64 units
+2025-05-17 19:28:44,722 - INFO - Current quota usage: 65 units
+2025-05-17 19:28:45,723 - INFO - Current quota usage: 66 units
+2025-05-17 19:28:45,889 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:45,890 - INFO - [-] Video rejected: Outside weekly time window - GBPUSD Analysis Today | JANUARY 27 - 31 2025  | GBPUSD Forecast | GBP/USD Technical Analysis
+2025-05-17 19:28:46,723 - INFO - Current quota usage: 67 units
+2025-05-17 19:28:46,915 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:46,915 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Climbs 0.41% Despite Looking Tired and Overbought
+2025-05-17 19:28:47,724 - INFO - Current quota usage: 68 units
+2025-05-17 19:28:48,724 - INFO - Current quota usage: 69 units
+2025-05-17 19:28:48,861 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:48,861 - INFO - [-] Video rejected: Outside weekly time window - April 30, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:28:49,732 - INFO - Current quota usage: 70 units
+2025-05-17 19:28:49,885 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:49,885 - INFO - [-] Video rejected: Outside weekly time window - China/Hong Kong Macro Update with CSOP Asset Management
+2025-05-17 19:28:50,732 - INFO - Current quota usage: 71 units
+2025-05-17 19:28:51,733 - INFO - Current quota usage: 72 units
+2025-05-17 19:28:52,733 - INFO - Current quota usage: 73 units
+2025-05-17 19:28:52,948 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:52,949 - INFO - [-] Video rejected: Outside weekly time window - Foot Locker, Inc. ( $FL ) stock analysis
+2025-05-17 19:28:53,734 - INFO - Current quota usage: 74 units
+2025-05-17 19:28:54,734 - INFO - Current quota usage: 75 units
+2025-05-17 19:28:55,735 - INFO - Current quota usage: 76 units
+2025-05-17 19:28:55,871 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:55,871 - INFO - [-] Video rejected: Outside weekly time window - EURUSD Analysis Today | JANUARY 27 - 31 2025  | EURUSD Weekly Forecast | EURUSD Technical Analysis
+2025-05-17 19:28:56,735 - INFO - Current quota usage: 77 units
+2025-05-17 19:28:56,871 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:56,872 - INFO - [-] Video rejected: Outside weekly time window - Daily Update Podcast for Friday May 16, 2025
+2025-05-17 19:28:57,735 - INFO - Current quota usage: 78 units
+2025-05-17 19:28:58,736 - INFO - Current quota usage: 79 units
+2025-05-17 19:28:58,889 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:58,890 - INFO - [-] Video rejected: Outside weekly time window - April 29, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:28:59,736 - INFO - Current quota usage: 80 units
+2025-05-17 19:28:59,871 - INFO - Collecting videos from 2025-05-16 13:58 UTC to 2025-05-17 13:58 UTC
+2025-05-17 19:28:59,871 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: Apple, Spotify, MSFT, CLI, Technical Analysis, SG Weekly & More!
+2025-05-17 19:29:00,743 - INFO - Current quota usage: 81 units
+2025-05-17 19:29:01,744 - INFO - Current quota usage: 82 units
+2025-05-17 19:29:02,745 - INFO - Current quota usage: 83 units
+2025-05-17 19:29:02,878 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:02,879 - INFO - [-] Video rejected: Outside weekly time window - Hims & Hers Health, Inc. ( $HIMS ) stock analysis
+2025-05-17 19:29:03,745 - INFO - Current quota usage: 84 units
+2025-05-17 19:29:04,746 - INFO - Current quota usage: 85 units
+2025-05-17 19:29:05,747 - INFO - Current quota usage: 86 units
+2025-05-17 19:29:05,883 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:05,884 - INFO - [-] Video rejected: Outside weekly time window - USDJPY Analysis Today | JANUARY 27 - 31 2025 | USDJPY Weekly Forecast | USDJPY Technical Analysis
+2025-05-17 19:29:06,748 - INFO - Current quota usage: 87 units
+2025-05-17 19:29:06,905 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:06,905 - INFO - [-] Video rejected: Outside weekly time window - A Quiet Climb with Signs of Fatigue
+2025-05-17 19:29:07,748 - INFO - Current quota usage: 88 units
+2025-05-17 19:29:08,748 - INFO - Current quota usage: 89 units
+2025-05-17 19:29:08,922 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:08,923 - INFO - [-] Video rejected: Outside weekly time window - April 28, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:29:09,748 - INFO - Current quota usage: 90 units
+2025-05-17 19:29:09,873 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:09,874 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: Netflix, Adobe, Tesla, Suntec REIT, OUE REIT, Tech Analysis & More
+2025-05-17 19:29:10,748 - INFO - Current quota usage: 91 units
+2025-05-17 19:29:11,749 - INFO - Current quota usage: 92 units
+2025-05-17 19:29:12,750 - INFO - Current quota usage: 93 units
+2025-05-17 19:29:12,906 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:12,907 - INFO - [-] Video rejected: Outside weekly time window - Invesco QQQ Trust, Series 1 ( $QQQ ) stock analysis
+2025-05-17 19:29:13,750 - INFO - Current quota usage: 94 units
+2025-05-17 19:29:14,751 - INFO - Current quota usage: 95 units
+2025-05-17 19:29:15,751 - INFO - Current quota usage: 96 units
+2025-05-17 19:29:15,889 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:15,890 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis JANUARY 27 - 31, 2025 NATGAS
+2025-05-17 19:29:16,752 - INFO - Current quota usage: 97 units
+2025-05-17 19:29:17,074 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:17,074 - INFO - [-] Video rejected: Outside weekly time window - Daily Update Podcast for Thursday May 15, 2025
+2025-05-17 19:29:17,752 - INFO - Current quota usage: 98 units
+2025-05-17 19:29:18,752 - INFO - Current quota usage: 99 units
+2025-05-17 19:29:18,904 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:18,904 - INFO - [-] Video rejected: Outside weekly time window - Trading Isn't a Recipe You Wing
+2025-05-17 19:29:19,753 - INFO - Current quota usage: 100 units
+2025-05-17 19:29:19,881 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:19,882 - INFO - [-] Video rejected: Outside weekly time window - PhillipCapital 50th Anniversary Appreciation Gala
+2025-05-17 19:29:20,753 - INFO - Current quota usage: 101 units
+2025-05-17 19:29:21,753 - INFO - Current quota usage: 102 units
+2025-05-17 19:29:22,754 - INFO - Current quota usage: 103 units
+2025-05-17 19:29:22,884 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:22,884 - INFO - [-] Video rejected: Outside weekly time window - Archer Aviation Inc. ( $ACHR ) stock analysis
+2025-05-17 19:29:23,755 - INFO - Current quota usage: 104 units
+2025-05-17 19:29:24,755 - INFO - Current quota usage: 105 units
+2025-05-17 19:29:25,755 - INFO - Current quota usage: 106 units
+2025-05-17 19:29:25,903 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:25,903 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis JANUARY 27 - 31, 2025 CRUDE OIL
+2025-05-17 19:29:26,756 - INFO - Current quota usage: 107 units
+2025-05-17 19:29:26,902 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:26,903 - INFO - [-] Video rejected: Outside weekly time window - Market Surges After Trade Talks! What’s Next?
+2025-05-17 19:29:27,756 - INFO - Current quota usage: 108 units
+2025-05-17 19:29:28,757 - INFO - Current quota usage: 109 units
+2025-05-17 19:29:28,928 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:28,929 - INFO - [-] Video rejected: Outside weekly time window - April 25, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:29:29,757 - INFO - Current quota usage: 110 units
+2025-05-17 19:29:29,883 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:29,884 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】关税弹出又弹入 暂缓声明能令美股重拾升势?｜比特币为何突然突破行情?｜辉立证券香港董事 - 黄玮杰先生（Louis Wong)、潘渡金融虚拟资产投资经理 - 邓力文(Nick Tang)
+2025-05-17 19:29:30,758 - INFO - Current quota usage: 111 units
+2025-05-17 19:29:31,758 - INFO - Current quota usage: 112 units
+2025-05-17 19:29:32,759 - INFO - Current quota usage: 113 units
+2025-05-17 19:29:32,911 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:32,911 - INFO - [-] Video rejected: Outside weekly time window - SPDR Dow Jones Industrial Avera ( $DIA ) stock analysis
+2025-05-17 19:29:33,759 - INFO - Current quota usage: 114 units
+2025-05-17 19:29:34,760 - INFO - Current quota usage: 115 units
+2025-05-17 19:29:35,760 - INFO - Current quota usage: 116 units
+2025-05-17 19:29:35,931 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:35,931 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:29:36,761 - INFO - Current quota usage: 117 units
+2025-05-17 19:29:36,922 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:36,923 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 May 12, 2025 Trade Talks, Low Volume, and Market Uncertainty
+2025-05-17 19:29:37,761 - INFO - Current quota usage: 118 units
+2025-05-17 19:29:38,762 - INFO - Current quota usage: 119 units
+2025-05-17 19:29:38,929 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:38,929 - INFO - [-] Video rejected: Outside weekly time window - Making the Turn AMA, Episode 3 - Futures Trading Focused Ask Me Anything Series
+2025-05-17 19:29:39,762 - INFO - Current quota usage: 120 units
+2025-05-17 19:29:39,897 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:39,898 - INFO - [-] Video rejected: Outside weekly time window - Are You a HENRY? (High Earner, Not Rich Yet) - Sipping Tea with Phillip Wealth Advisory
+2025-05-17 19:29:40,763 - INFO - Current quota usage: 121 units
+2025-05-17 19:29:41,763 - INFO - Current quota usage: 122 units
+2025-05-17 19:29:42,763 - INFO - Current quota usage: 123 units
+2025-05-17 19:29:42,907 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:42,910 - INFO - [-] Video rejected: Outside weekly time window - SPDR S&P 500 ( $SPY ) stock analysis
+2025-05-17 19:29:43,763 - INFO - Current quota usage: 124 units
+2025-05-17 19:29:44,764 - INFO - Current quota usage: 125 units
+2025-05-17 19:29:45,765 - INFO - Current quota usage: 126 units
+2025-05-17 19:29:45,893 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:45,893 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis JANUARY 27 - 31, 2024 XAU/USD GOLD
+2025-05-17 19:29:46,765 - INFO - Current quota usage: 127 units
+2025-05-17 19:29:46,902 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:46,902 - INFO - [-] Video rejected: Outside weekly time window - What’s Next for the S&P 500 This Week?
+2025-05-17 19:29:47,766 - INFO - Current quota usage: 128 units
+2025-05-17 19:29:48,766 - INFO - Current quota usage: 129 units
+2025-05-17 19:29:48,893 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:48,893 - INFO - [-] Video rejected: Outside weekly time window - April 24, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:29:49,767 - INFO - Current quota usage: 130 units
+2025-05-17 19:29:49,886 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:49,887 - INFO - [-] Video rejected: Outside weekly time window - Debunking Financial Misconceptions: Tips to Get Started - Sipping Tea with Phillip Wealth Advisory
+2025-05-17 19:29:50,767 - INFO - Current quota usage: 131 units
+2025-05-17 19:29:51,768 - INFO - Current quota usage: 132 units
+2025-05-17 19:29:52,768 - INFO - Current quota usage: 133 units
+2025-05-17 19:29:52,898 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:52,899 - INFO - [-] Video rejected: Outside weekly time window - D-Wave Quantum Inc. ( $QBTS ) stock analysis
+2025-05-17 19:29:53,769 - INFO - Current quota usage: 134 units
+2025-05-17 19:29:54,770 - INFO - Current quota usage: 135 units
+2025-05-17 19:29:55,770 - INFO - Current quota usage: 136 units
+2025-05-17 19:29:55,898 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:55,898 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis JANUARY 06 - 10, 2023 CRUDE OIL
+2025-05-17 19:29:56,771 - INFO - Current quota usage: 137 units
+2025-05-17 19:29:56,908 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:56,909 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Friday May 9, 2025
+2025-05-17 19:29:57,771 - INFO - Current quota usage: 138 units
+2025-05-17 19:29:58,772 - INFO - Current quota usage: 139 units
+2025-05-17 19:29:58,900 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:58,901 - INFO - [-] Video rejected: Outside weekly time window - April 23, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:29:59,772 - INFO - Current quota usage: 140 units
+2025-05-17 19:29:59,915 - INFO - Collecting videos from 2025-05-16 13:59 UTC to 2025-05-17 13:59 UTC
+2025-05-17 19:29:59,916 - INFO - [-] Video rejected: Outside weekly time window - 【线上中文讲座回放】逆风翻盘指南：活跃交易者的杠杆与反向ETF布局
+2025-05-17 19:30:00,773 - INFO - Current quota usage: 141 units
+2025-05-17 19:30:01,773 - INFO - Current quota usage: 142 units
+2025-05-17 19:30:02,774 - INFO - Current quota usage: 143 units
+2025-05-17 19:30:02,914 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:02,915 - INFO - [-] Video rejected: Outside weekly time window - UnitedHealth Group Incorporated ( $UNH ) stock analysis
+2025-05-17 19:30:03,774 - INFO - Current quota usage: 144 units
+2025-05-17 19:30:04,775 - INFO - Current quota usage: 145 units
+2025-05-17 19:30:05,029 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:05,030 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis JANUARY 06 - 10, 2024 NATGAS
+2025-05-17 19:30:05,781 - INFO - Current quota usage: 146 units
+2025-05-17 19:30:06,782 - INFO - Current quota usage: 147 units
+2025-05-17 19:30:06,922 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:06,923 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Thursday May 8, 2025
+2025-05-17 19:30:07,782 - INFO - Current quota usage: 148 units
+2025-05-17 19:30:08,783 - INFO - Current quota usage: 149 units
+2025-05-17 19:30:08,964 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:08,965 - INFO - [-] Video rejected: Outside weekly time window - April 22, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:30:09,794 - INFO - Current quota usage: 150 units
+2025-05-17 19:30:10,795 - INFO - Current quota usage: 151 units
+2025-05-17 19:30:10,950 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:10,951 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: US Banks, KDCREIT, Soilbuild, Microsoft, Airbnb, SG Banks, Tech Analysis
+2025-05-17 19:30:11,795 - INFO - Current quota usage: 152 units
+2025-05-17 19:30:12,796 - INFO - Current quota usage: 153 units
+2025-05-17 19:30:13,028 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:13,029 - INFO - [-] Video rejected: Outside weekly time window - Walmart Inc. ( $WMT ) stock analysis
+2025-05-17 19:30:13,797 - INFO - Current quota usage: 154 units
+2025-05-17 19:30:14,797 - INFO - Current quota usage: 155 units
+2025-05-17 19:30:14,961 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:14,961 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:30:15,798 - INFO - Current quota usage: 156 units
+2025-05-17 19:30:15,937 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:15,938 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Wednesday May 7, 2025
+2025-05-17 19:30:16,798 - INFO - Current quota usage: 157 units
+2025-05-17 19:30:17,798 - INFO - Current quota usage: 158 units
+2025-05-17 19:30:18,799 - INFO - Current quota usage: 159 units
+2025-05-17 19:30:18,936 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:18,937 - INFO - [-] Video rejected: Outside weekly time window - April 21, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:30:19,799 - INFO - Current quota usage: 160 units
+2025-05-17 19:30:20,800 - INFO - Current quota usage: 161 units
+2025-05-17 19:30:21,800 - INFO - Current quota usage: 162 units
+2025-05-17 19:30:21,937 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:21,938 - INFO - [-] Video rejected: Outside weekly time window - Market Watch: S-REITs a hidden GEM?
+2025-05-17 19:30:22,801 - INFO - Current quota usage: 163 units
+2025-05-17 19:30:22,934 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:22,935 - INFO - [-] Video rejected: Outside weekly time window - Regencell Bioscience Holdings L ( $RGC ) stock analysis
+2025-05-17 19:30:23,801 - INFO - Current quota usage: 164 units
+2025-05-17 19:30:24,802 - INFO - Current quota usage: 165 units
+2025-05-17 19:30:24,933 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:24,933 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis JANUARY 06 - 10, 2024 XAU/USD GOLD
+2025-05-17 19:30:25,802 - INFO - Current quota usage: 166 units
+2025-05-17 19:30:25,951 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:25,952 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Tuesday May 6, 2025
+2025-05-17 19:30:26,803 - INFO - Current quota usage: 167 units
+2025-05-17 19:30:27,803 - INFO - Current quota usage: 168 units
+2025-05-17 19:30:28,804 - INFO - Current quota usage: 169 units
+2025-05-17 19:30:28,933 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:28,934 - INFO - [-] Video rejected: Outside weekly time window - April 17, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:30:29,806 - INFO - Current quota usage: 170 units
+2025-05-17 19:30:30,807 - INFO - Current quota usage: 171 units
+2025-05-17 19:30:31,807 - INFO - Current quota usage: 172 units
+2025-05-17 19:30:32,222 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:32,223 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: US Strategy & Stock Picks, Technical Analysis, SG Weekly & More!
+2025-05-17 19:30:32,807 - INFO - Current quota usage: 173 units
+2025-05-17 19:30:32,943 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:32,944 - INFO - [-] Video rejected: Outside weekly time window - iShares Russell 2000 ETF ( $IWM ) stock analysis
+2025-05-17 19:30:33,808 - INFO - Current quota usage: 174 units
+2025-05-17 19:30:34,808 - INFO - Current quota usage: 175 units
+2025-05-17 19:30:34,963 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:34,963 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis DECEMBER 23 - 27, 2024 NATGAS
+2025-05-17 19:30:35,809 - INFO - Current quota usage: 176 units
+2025-05-17 19:30:35,942 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:35,942 - INFO - [-] Video rejected: Outside weekly time window - What to Watch Update for Monday May 5, 2025
+2025-05-17 19:30:36,809 - INFO - Current quota usage: 177 units
+2025-05-17 19:30:37,810 - INFO - Current quota usage: 178 units
+2025-05-17 19:30:38,810 - INFO - Current quota usage: 179 units
+2025-05-17 19:30:38,980 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:38,981 - INFO - [-] Video rejected: Outside weekly time window - 187Shogun's Trading Journey | Accelerator Program
+2025-05-17 19:30:39,811 - INFO - Current quota usage: 180 units
+2025-05-17 19:30:40,811 - INFO - Current quota usage: 181 units
+2025-05-17 19:30:41,812 - INFO - Current quota usage: 182 units
+2025-05-17 19:30:42,358 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:42,359 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】中美贸易战升级 恒指可守稳20000点?｜油价 保险股 航运股 前景堪虞?｜辉立证券香港董事 - 黄玮杰先生（Louis Wong)、李晓然
+2025-05-17 19:30:42,812 - INFO - Current quota usage: 183 units
+2025-05-17 19:30:42,938 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:42,939 - INFO - [-] Video rejected: Outside weekly time window - D-Wave Quantum Inc. ( $QBTS ) stock analysis
+2025-05-17 19:30:43,813 - INFO - Current quota usage: 184 units
+2025-05-17 19:30:44,813 - INFO - Current quota usage: 185 units
+2025-05-17 19:30:44,949 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:44,950 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis DECEMBER 23 - 27, 2023 CRUDE OIL
+2025-05-17 19:30:45,813 - INFO - Current quota usage: 186 units
+2025-05-17 19:30:45,966 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:45,967 - INFO - [-] Video rejected: Outside weekly time window - Deep Dive Update for Monday May 5, 2025
+2025-05-17 19:30:46,814 - INFO - Current quota usage: 187 units
+2025-05-17 19:30:47,814 - INFO - Current quota usage: 188 units
+2025-05-17 19:30:48,017 - ERROR - Error getting statistics for video PwEstPjdHZw: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2546)
+2025-05-17 19:30:48,018 - ERROR - Error getting statistics for video YI1eFQSAYek: [SSL: WRONG_VERSION_NUMBER] wrong version number (_ssl.c:2546)
+2025-05-17 19:30:48,020 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:48,021 - INFO - [-] Video rejected: Outside weekly time window - 初心者から経験者まで！米国投資セミナー【次のマグニフィセント・セブン候補を探せ！】
+2025-05-17 19:30:48,021 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:48,023 - INFO - [-] Video rejected: Outside weekly time window - the_rook's Trading Journey | Accelerator Program
+2025-05-17 19:30:48,815 - INFO - Current quota usage: 189 units
+2025-05-17 19:30:49,815 - INFO - Current quota usage: 190 units
+2025-05-17 19:30:50,816 - INFO - Current quota usage: 191 units
+2025-05-17 19:30:51,816 - INFO - Current quota usage: 192 units
+2025-05-17 19:30:52,816 - INFO - Current quota usage: 193 units
+2025-05-17 19:30:52,955 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:52,956 - INFO - [-] Video rejected: Outside weekly time window - Apple Inc. ( $AAPL ) stock analysis
+2025-05-17 19:30:53,817 - INFO - Current quota usage: 194 units
+2025-05-17 19:30:54,817 - INFO - Current quota usage: 195 units
+2025-05-17 19:30:55,007 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:55,008 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:30:55,818 - INFO - Current quota usage: 196 units
+2025-05-17 19:30:55,962 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:55,963 - INFO - [-] Video rejected: Outside weekly time window - InterMarket Analysis Update for Monday May 5, 2025
+2025-05-17 19:30:56,818 - INFO - Current quota usage: 197 units
+2025-05-17 19:30:56,938 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:56,939 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: SG 2Q25 Equity Strategy, Technical Analysis & More
+2025-05-17 19:30:57,818 - INFO - Current quota usage: 198 units
+2025-05-17 19:30:58,819 - INFO - Current quota usage: 199 units
+2025-05-17 19:30:58,963 - INFO - Collecting videos from 2025-05-16 14:00 UTC to 2025-05-17 14:00 UTC
+2025-05-17 19:30:58,964 - INFO - [-] Video rejected: Outside weekly time window - Stop Placement and R-Factor
+2025-05-17 19:30:59,819 - INFO - Current quota usage: 200 units
+2025-05-17 19:31:00,819 - INFO - Current quota usage: 201 units
+2025-05-17 19:31:01,820 - INFO - Current quota usage: 202 units
+2025-05-17 19:31:02,820 - INFO - Current quota usage: 203 units
+2025-05-17 19:31:02,963 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:02,964 - INFO - [-] Video rejected: Outside weekly time window - Oklo Inc. ( $OKLO ) stock analysis
+2025-05-17 19:31:03,831 - INFO - Current quota usage: 204 units
+2025-05-17 19:31:03,948 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:03,949 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis DECEMBER 23 - 27, 2024 XAU/USD GOLD
+2025-05-17 19:31:04,831 - INFO - Current quota usage: 205 units
+2025-05-17 19:31:05,832 - INFO - Current quota usage: 206 units
+2025-05-17 19:31:05,977 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:05,978 - INFO - [-] Video rejected: Outside weekly time window - Weekly Update for May 5-9, 2025
+2025-05-17 19:31:06,832 - INFO - Current quota usage: 207 units
+2025-05-17 19:31:06,969 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:06,970 - INFO - [-] Video rejected: Outside weekly time window - Market Watch: Analysing Singapore Banks and When to Invest in Them
+2025-05-17 19:31:07,832 - INFO - Current quota usage: 208 units
+2025-05-17 19:31:08,835 - INFO - Current quota usage: 209 units
+2025-05-17 19:31:09,836 - INFO - Current quota usage: 210 units
+2025-05-17 19:31:09,975 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:09,975 - INFO - [-] Video rejected: Outside weekly time window - April 16, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:31:10,836 - INFO - Current quota usage: 211 units
+2025-05-17 19:31:11,836 - INFO - Current quota usage: 212 units
+2025-05-17 19:31:11,992 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:11,992 - INFO - [-] Video rejected: Outside weekly time window - Lucid Group, Inc. ( $LCID ) stock analysis
+2025-05-17 19:31:12,837 - INFO - Current quota usage: 213 units
+2025-05-17 19:31:13,837 - INFO - Current quota usage: 214 units
+2025-05-17 19:31:14,013 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:14,013 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis DECEMBER 02 - 06, 2023 CRUDE OIL
+2025-05-17 19:31:14,838 - INFO - Current quota usage: 215 units
+2025-05-17 19:31:15,839 - INFO - Current quota usage: 216 units
+2025-05-17 19:31:15,994 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:15,994 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update For Monday May 5, 2025
+2025-05-17 19:31:16,839 - INFO - Current quota usage: 217 units
+2025-05-17 19:31:17,839 - INFO - Current quota usage: 218 units
+2025-05-17 19:31:17,969 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:17,969 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】关税风暴波及全球美国陷入衰退危机？｜ AI资本支出过高？泡沫即将爆破？｜辉立证券香港董事 - 黄玮杰先生（Louis Wong)、李明翰
+2025-05-17 19:31:18,840 - INFO - Current quota usage: 219 units
+2025-05-17 19:31:19,840 - INFO - Current quota usage: 220 units
+2025-05-17 19:31:19,973 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:19,973 - INFO - [-] Video rejected: Outside weekly time window - April 15, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:31:20,841 - INFO - Current quota usage: 221 units
+2025-05-17 19:31:20,989 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:20,989 - INFO - [-] Video rejected: Outside weekly time window - SPDR Dow Jones Industrial Avera ( $DIA ) stock analysis
+2025-05-17 19:31:21,841 - INFO - Current quota usage: 222 units
+2025-05-17 19:31:22,842 - INFO - Current quota usage: 223 units
+2025-05-17 19:31:23,842 - INFO - Current quota usage: 224 units
+2025-05-17 19:31:24,012 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:24,013 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis DECEMBER 02 - 06, 2024 NATGAS
+2025-05-17 19:31:24,843 - INFO - Current quota usage: 225 units
+2025-05-17 19:31:25,843 - INFO - Current quota usage: 226 units
+2025-05-17 19:31:26,844 - INFO - Current quota usage: 227 units
+2025-05-17 19:31:26,966 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:26,966 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Friday May 2, 2025
+2025-05-17 19:31:27,844 - INFO - Current quota usage: 228 units
+2025-05-17 19:31:27,963 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:27,963 - INFO - [-] Video rejected: Outside weekly time window - Invest Globally with POEMS
+2025-05-17 19:31:28,844 - INFO - Current quota usage: 229 units
+2025-05-17 19:31:29,027 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:29,028 - INFO - [-] Video rejected: Outside weekly time window - April 14, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:31:29,858 - INFO - Current quota usage: 230 units
+2025-05-17 19:31:30,859 - INFO - Current quota usage: 231 units
+2025-05-17 19:31:31,290 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:31,290 - INFO - [-] Video rejected: Outside weekly time window - Invesco QQQ Trust, Series 1 ( $QQQ ) stock analysis
+2025-05-17 19:31:31,859 - INFO - Current quota usage: 232 units
+2025-05-17 19:31:32,860 - INFO - Current quota usage: 233 units
+2025-05-17 19:31:33,860 - INFO - Current quota usage: 234 units
+2025-05-17 19:31:34,861 - INFO - Current quota usage: 235 units
+2025-05-17 19:31:34,998 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:34,998 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:31:35,861 - INFO - Current quota usage: 236 units
+2025-05-17 19:31:36,003 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:36,004 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Thursday May 1, 2025
+2025-05-17 19:31:36,862 - INFO - Current quota usage: 237 units
+2025-05-17 19:31:37,864 - INFO - Current quota usage: 238 units
+2025-05-17 19:31:37,999 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:37,999 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】关税重塑全球汽车业布局？中国车企为何配股？ ｜消费板块是否过热超买?｜辉立证券香港董事 - 黄玮杰先生（Louis Wong)、戴霓羽
+2025-05-17 19:31:38,864 - INFO - Current quota usage: 239 units
+2025-05-17 19:31:39,004 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:39,005 - INFO - [-] Video rejected: Outside weekly time window - April 11, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:31:39,865 - INFO - Current quota usage: 240 units
+2025-05-17 19:31:40,865 - INFO - Current quota usage: 241 units
+2025-05-17 19:31:41,014 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:41,016 - INFO - [-] Video rejected: Outside weekly time window - Super Micro Computer, Inc. ( $SMCI ) stock analysis
+2025-05-17 19:31:41,865 - INFO - Current quota usage: 242 units
+2025-05-17 19:31:42,866 - INFO - Current quota usage: 243 units
+2025-05-17 19:31:43,866 - INFO - Current quota usage: 244 units
+2025-05-17 19:31:44,866 - INFO - Current quota usage: 245 units
+2025-05-17 19:31:45,009 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:45,010 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis DECEMBER 02 - 06, 2024 XAU/USD GOLD
+2025-05-17 19:31:45,867 - INFO - Current quota usage: 246 units
+2025-05-17 19:31:46,867 - INFO - Current quota usage: 247 units
+2025-05-17 19:31:46,995 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:46,995 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Wednesday April 30, 2025
+2025-05-17 19:31:47,868 - INFO - Current quota usage: 248 units
+2025-05-17 19:31:48,028 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:48,028 - INFO - [-] Video rejected: Outside weekly time window - 【线上中文讲座回放】DeepSeek崛起：挑战、颠覆、还是机遇？
+2025-05-17 19:31:48,868 - INFO - Current quota usage: 249 units
+2025-05-17 19:31:48,988 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:48,989 - INFO - [-] Video rejected: Outside weekly time window - April 10, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:31:49,869 - INFO - Current quota usage: 250 units
+2025-05-17 19:31:50,869 - INFO - Current quota usage: 251 units
+2025-05-17 19:31:50,994 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:50,995 - INFO - [-] Video rejected: Outside weekly time window - Newegg Commerce, Inc. ( $NEGG ) stock analysis
+2025-05-17 19:31:51,870 - INFO - Current quota usage: 252 units
+2025-05-17 19:31:52,871 - INFO - Current quota usage: 253 units
+2025-05-17 19:31:53,871 - INFO - Current quota usage: 254 units
+2025-05-17 19:31:54,872 - INFO - Current quota usage: 255 units
+2025-05-17 19:31:55,371 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:55,371 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis NOVEMBER 18 - 22, 2023 CRUDE OIL
+2025-05-17 19:31:55,378 - INFO - 
+Number of recent videos found for absoluteandawesomeTrade: 0
+2025-05-17 19:31:55,873 - INFO - Current quota usage: 256 units
+2025-05-17 19:31:56,873 - INFO - Current quota usage: 257 units
+2025-05-17 19:31:56,997 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:56,997 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Tuesday April 29, 2025
+2025-05-17 19:31:57,873 - INFO - Current quota usage: 258 units
+2025-05-17 19:31:58,064 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:58,064 - INFO - [-] Video rejected: Outside weekly time window - Ask Me Anything: How Can You Stay Financially Secure Amid Career Uncertainty?
+2025-05-17 19:31:58,068 - INFO - 
+Number of recent videos found for PhillipCapital: 0
+2025-05-17 19:31:58,874 - INFO - Current quota usage: 259 units
+2025-05-17 19:31:58,990 - INFO - Collecting videos from 2025-05-16 14:01 UTC to 2025-05-17 14:01 UTC
+2025-05-17 19:31:58,991 - INFO - [-] Video rejected: Outside weekly time window - Untreated Injuries, Unfixed Trading Problems
+2025-05-17 19:31:58,996 - INFO - 
+Number of recent videos found for ConvergentTrading: 0
+2025-05-17 19:31:59,874 - INFO - Current quota usage: 260 units
+2025-05-17 19:32:00,184 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:00,184 - INFO - [-] Video rejected: Outside weekly time window - SPDR S&P 500 ( $SPY ) stock analysis
+2025-05-17 19:32:00,875 - INFO - Current quota usage: 261 units
+2025-05-17 19:32:01,876 - INFO - Current quota usage: 262 units
+2025-05-17 19:32:02,010 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:02,011 - INFO - [-] Video rejected: Outside weekly time window - What to Watch for Monday April 28, 2025
+2025-05-17 19:32:02,876 - INFO - Current quota usage: 263 units
+2025-05-17 19:32:03,877 - INFO - Current quota usage: 264 units
+2025-05-17 19:32:04,878 - INFO - Current quota usage: 265 units
+2025-05-17 19:32:05,029 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:05,030 - INFO - [-] Video rejected: Outside weekly time window - Rigetti Computing, Inc. ( $RGTI ) stock analysis
+2025-05-17 19:32:05,878 - INFO - Current quota usage: 266 units
+2025-05-17 19:32:06,011 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:06,011 - INFO - [-] Video rejected: Outside weekly time window - Deep Dive Update for Monday April 28, 2025
+2025-05-17 19:32:06,879 - INFO - Current quota usage: 267 units
+2025-05-17 19:32:07,879 - INFO - Current quota usage: 268 units
+2025-05-17 19:32:08,880 - INFO - Current quota usage: 269 units
+2025-05-17 19:32:09,002 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:09,003 - INFO - [-] Video rejected: Outside weekly time window - Tencent Music Entertainment Gro ( $TME ) stock analysis
+2025-05-17 19:32:09,880 - INFO - Current quota usage: 270 units
+2025-05-17 19:32:10,128 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:10,128 - INFO - [-] Video rejected: Outside weekly time window - InterMarket Analysis Update for April 28 May 2, 2025
+2025-05-17 19:32:10,880 - INFO - Current quota usage: 271 units
+2025-05-17 19:32:11,881 - INFO - Current quota usage: 272 units
+2025-05-17 19:32:12,881 - INFO - Current quota usage: 273 units
+2025-05-17 19:32:13,020 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:13,020 - INFO - [-] Video rejected: Outside weekly time window - First Solar, Inc. ( $FSLR ) stock analysis
+2025-05-17 19:32:13,882 - INFO - Current quota usage: 274 units
+2025-05-17 19:32:14,030 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:14,031 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Weekly Update for April 28 May 2, 2025
+2025-05-17 19:32:14,883 - INFO - Current quota usage: 275 units
+2025-05-17 19:32:15,883 - INFO - Current quota usage: 276 units
+2025-05-17 19:32:16,884 - INFO - Current quota usage: 277 units
+2025-05-17 19:32:17,009 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:17,010 - INFO - [-] Video rejected: Outside weekly time window - Coinbase Global, Inc. ( $COIN ) stock analysis
+2025-05-17 19:32:17,884 - INFO - Current quota usage: 278 units
+2025-05-17 19:32:18,044 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:18,045 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update For Monday April 28, 2025
+2025-05-17 19:32:18,884 - INFO - Current quota usage: 279 units
+2025-05-17 19:32:19,885 - INFO - Current quota usage: 280 units
+2025-05-17 19:32:20,885 - INFO - Current quota usage: 281 units
+2025-05-17 19:32:21,023 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:21,023 - INFO - [-] Video rejected: Outside weekly time window - SPDR Dow Jones Industrial Avera ( $DIA ) stock analysis
+2025-05-17 19:32:21,886 - INFO - Current quota usage: 282 units
+2025-05-17 19:32:22,034 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:22,035 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update For Friday April 25, 2025
+2025-05-17 19:32:22,886 - INFO - Current quota usage: 283 units
+2025-05-17 19:32:23,886 - INFO - Current quota usage: 284 units
+2025-05-17 19:32:24,887 - INFO - Current quota usage: 285 units
+2025-05-17 19:32:25,030 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:25,031 - INFO - [-] Video rejected: Outside weekly time window - iShares Russell 2000 ETF ( $IWM ) stock analysis
+2025-05-17 19:32:25,887 - INFO - Current quota usage: 286 units
+2025-05-17 19:32:26,021 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:26,022 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Thursday April 24, 2025
+2025-05-17 19:32:26,888 - INFO - Current quota usage: 287 units
+2025-05-17 19:32:27,889 - INFO - Current quota usage: 288 units
+2025-05-17 19:32:28,889 - INFO - Current quota usage: 289 units
+2025-05-17 19:32:29,016 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:29,017 - INFO - [-] Video rejected: Outside weekly time window - NVIDIA Corporation ( $NVDA ) stock analysis
+2025-05-17 19:32:29,889 - INFO - Current quota usage: 290 units
+2025-05-17 19:32:30,034 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:30,035 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Wednesday April 23, 2025
+2025-05-17 19:32:30,890 - INFO - Current quota usage: 291 units
+2025-05-17 19:32:31,890 - INFO - Current quota usage: 292 units
+2025-05-17 19:32:32,890 - INFO - Current quota usage: 293 units
+2025-05-17 19:32:33,051 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:33,052 - INFO - [-] Video rejected: Outside weekly time window - Tesla, Inc. ( $TSLA ) stock analysis
+2025-05-17 19:32:33,894 - INFO - Current quota usage: 294 units
+2025-05-17 19:32:34,047 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:34,048 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Tuesday April 22, 2025
+2025-05-17 19:32:34,893 - INFO - Current quota usage: 295 units
+2025-05-17 19:32:35,893 - INFO - Current quota usage: 296 units
+2025-05-17 19:32:36,894 - INFO - Current quota usage: 297 units
+2025-05-17 19:32:37,047 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:37,047 - INFO - [-] Video rejected: Outside weekly time window - Meta Platforms, Inc. ( $META ) stock analysis
+2025-05-17 19:32:37,053 - INFO - 
+Number of recent videos found for SpicyTrade: 0
+2025-05-17 19:32:37,894 - INFO - Current quota usage: 298 units
+2025-05-17 19:32:38,022 - INFO - Collecting videos from 2025-05-16 14:02 UTC to 2025-05-17 14:02 UTC
+2025-05-17 19:32:38,023 - INFO - [-] Video rejected: Outside weekly time window - What to Watch Update for Monday April 21, 2025
+2025-05-17 19:32:38,030 - INFO - 
+Number of recent videos found for SPXInvesting: 0
+2025-05-17 19:32:38,037 - INFO - All video information has been saved to 'D:\chat_with_rag\YOUTUBE\Outputs\2025-05-17'
+2025-05-17 19:32:38,038 - INFO - Total number of videos across all channels: 0
+2025-05-17 19:32:38,039 - INFO - 
+==================================================
+2025-05-17 19:32:38,041 - INFO - === Statistics ===
+2025-05-17 19:32:38,042 - INFO - ==================================================
+2025-05-17 19:32:38,044 - INFO - Total channels processed: 0
+2025-05-17 19:32:38,045 - INFO - Total videos collected: 0
+2025-05-17 19:32:38,046 - INFO - Total views: 0
+2025-05-17 19:32:38,047 - INFO - Total likes: 0
+2025-05-17 19:32:38,048 - INFO - Total comments: 0
+2025-05-17 19:32:38,049 - INFO - Total subscribers: 0
+2025-05-17 19:32:38,050 - INFO - Total video duration: 00:00
+2025-05-17 19:32:38,051 - INFO - View ratio: 0.00%
+2025-05-17 19:32:38,052 - INFO - Likes ratio: 0.00%
+2025-05-17 19:32:38,053 - INFO - Quota used: 298 units
+2025-05-17 19:32:38,054 - INFO - ==================================================
+
+2025-05-17 19:32:38,055 - INFO - Video collection completed successfully. Results saved to: D:\chat_with_rag\YOUTUBE\Outputs\2025-05-17
+2025-05-17 19:48:50,451 - INFO - YouTube API key loaded successfully
+2025-05-17 19:48:50,457 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-17 19:48:50,583 - INFO - 
+==================================================
+Starting video collection for 5 channels
+==================================================
+2025-05-17 19:48:50,614 - INFO - 
+==================================================
+Fetching videos for channel: SPXInvesting
+==================================================
+2025-05-17 19:48:50,615 - INFO - 
+==================================================
+Fetching videos for channel: absoluteandawesomeTrade
+==================================================
+2025-05-17 19:48:50,616 - INFO - 
+==================================================
+Fetching videos for channel: SpicyTrade
+==================================================
+2025-05-17 19:48:50,618 - INFO - 
+==================================================
+Fetching videos for channel: PhillipCapital
+==================================================
+2025-05-17 19:48:50,619 - INFO - 
+==================================================
+Fetching videos for channel: ConvergentTrading
+==================================================
+2025-05-17 19:48:54,138 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,139 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,139 - INFO - [-] Video rejected: Outside weekly time window - iShares Russell 2000 ETF ( $IWM ) stock analysis
+2025-05-17 19:48:54,140 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis MARCH 31 - APRIL 4, 2025 NATGAS
+2025-05-17 19:48:54,193 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,193 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,193 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,200 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis MARCH 31 - APRIL 4, 2025 CRUDE OIL
+2025-05-17 19:48:54,201 - INFO - [-] Video rejected: Outside weekly time window - Market Watch: Outlook on Gold
+2025-05-17 19:48:54,206 - INFO - [-] Video rejected: Outside weekly time window - Foot Locker, Inc. ( $FL ) stock analysis
+2025-05-17 19:48:54,233 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,235 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,235 - INFO - [-] Video rejected: Outside weekly time window - Behind the Shave: People of PhillipCapital Reveal What Hair for Hope Means to Them
+2025-05-17 19:48:54,235 - INFO - [-] Video rejected: Outside weekly time window - May 16, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,238 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,238 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis MARCH 31 - APRIL 4, 2024 XAU/USD GOLD
+2025-05-17 19:48:54,253 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,256 - INFO - [-] Video rejected: Outside weekly time window - Hims & Hers Health, Inc. ( $HIMS ) stock analysis
+2025-05-17 19:48:54,265 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,265 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,266 - INFO - [-] Video rejected: Outside weekly time window - May 15, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,267 - INFO - [-] Video rejected: Outside weekly time window - Meet POEMS GPT - Financial AI Investment Assistant Powered by Generative AI
+2025-05-17 19:48:54,269 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,270 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:48:54,295 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,296 - INFO - [-] Video rejected: Outside weekly time window - Discretion in the Target. Process in the Launch
+2025-05-17 19:48:54,297 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,297 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,299 - INFO - [-] Video rejected: Outside weekly time window - 专业中文交易团队 | 提供全中文服务 | 轻松交易全球20多个国家及地区股票,马来西亚股、越南股、韩国股、印尼股、英国股、德国股、日本股等
+2025-05-17 19:48:54,299 - INFO - [-] Video rejected: Outside weekly time window - Invesco QQQ Trust, Series 1 ( $QQQ ) stock analysis
+2025-05-17 19:48:54,311 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,313 - INFO - [-] Video rejected: Outside weekly time window - USDJPY Analysis Today | MARCH 17 - 21 2025 | USDJPY Weekly Forecast | USDJPY Technical Analysis
+2025-05-17 19:48:54,325 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,326 - INFO - [-] Video rejected: Outside weekly time window - May 14, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,327 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,328 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,329 - INFO - [-] Video rejected: Outside weekly time window - 辉立证券 | 创立于1975年 | 专业中文交易团队 | 提供全中文服务 | 一美元，轻松买入明星美股！解锁美股的无限投资潜力！
+2025-05-17 19:48:54,330 - INFO - [-] Video rejected: Outside weekly time window - Archer Aviation Inc. ( $ACHR ) stock analysis
+2025-05-17 19:48:54,350 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,351 - INFO - [-] Video rejected: Outside weekly time window - EURUSD Analysis Today | MARCH 17 - 21 2025  | EURUSD Weekly Forecast | EURUSD Technical Analysis
+2025-05-17 19:48:54,355 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,355 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,356 - INFO - [-] Video rejected: Outside weekly time window - May 9, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,356 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,356 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】美英协议带动美股 比特币升破10万只是开始？ ｜芯片股业绩两极化 如何看待其前景? ｜辉立证券香港董事 黄玮杰先生（Louis Wong)、李明翰
+2025-05-17 19:48:54,358 - INFO - [-] Video rejected: Outside weekly time window - SPDR Dow Jones Industrial Avera ( $DIA ) stock analysis
+2025-05-17 19:48:54,379 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,379 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,379 - INFO - [-] Video rejected: Outside weekly time window - US30 Weekly Forecast | US30 Technical Analysis | DOW JONES Analysis | DOW JONES Daily Forecast
+2025-05-17 19:48:54,380 - INFO - [-] Video rejected: Outside weekly time window - 2025 05 08   The Opening Swing
+2025-05-17 19:48:54,381 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,383 - INFO - [-] Video rejected: Outside weekly time window - SPDR S&P 500 ( $SPY ) stock analysis
+2025-05-17 19:48:54,384 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,385 - INFO - [-] Video rejected: Outside weekly time window - 如何在POEMS Mobile 3 App上设置数字密钥
+2025-05-17 19:48:54,405 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,406 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,406 - INFO - [-] Video rejected: Outside weekly time window - May 7, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,407 - INFO - [-] Video rejected: Outside weekly time window - How to set up Digital Token on POEMS Mobile 3 App?
+2025-05-17 19:48:54,408 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,409 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,410 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis MARCH 17 - 21, 2025 CRUDE OIL
+2025-05-17 19:48:54,411 - INFO - [-] Video rejected: Outside weekly time window - D-Wave Quantum Inc. ( $QBTS ) stock analysis
+2025-05-17 19:48:54,430 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,431 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,432 - INFO - [-] Video rejected: Outside weekly time window - Market Watch: Why S-REITs Shine Amid Market Volatility
+2025-05-17 19:48:54,432 - INFO - [-] Video rejected: Outside weekly time window - May 6, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,436 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,436 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,438 - INFO - [-] Video rejected: Outside weekly time window - UnitedHealth Group Incorporated ( $UNH ) stock analysis
+2025-05-17 19:48:54,440 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:48:54,462 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,463 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,463 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】恒指走势有突破? 该如何布局?｜中国狂卖黄金 加密货币可否作避险部署? ｜辉立证券香港董事 黄玮杰先生（Louis Wong)、华夏基金国际业务经理 程俊杰(Albert Cheng)
+2025-05-17 19:48:54,464 - INFO - [-] Video rejected: Outside weekly time window - May 2, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,471 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,471 - INFO - [-] Video rejected: Outside weekly time window - Walmart Inc. ( $WMT ) stock analysis
+2025-05-17 19:48:54,474 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,474 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis MARCH 17 - 21, 2024 XAU/USD GOLD
+2025-05-17 19:48:54,490 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,491 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,491 - INFO - [-] Video rejected: Outside weekly time window - May 1, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,492 - INFO - [-] Video rejected: Outside weekly time window - China/Hong Kong Macro Update with CSOP Asset Management
+2025-05-17 19:48:54,512 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,512 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,513 - INFO - [-] Video rejected: Outside weekly time window - GBPUSD Analysis Today | JANUARY 27 - 31 2025  | GBPUSD Forecast | GBP/USD Technical Analysis
+2025-05-17 19:48:54,514 - INFO - [-] Video rejected: Outside weekly time window - Regencell Bioscience Holdings L ( $RGC ) stock analysis
+2025-05-17 19:48:54,520 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,520 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,521 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: Apple, Spotify, MSFT, CLI, Technical Analysis, SG Weekly & More!
+2025-05-17 19:48:54,522 - INFO - [-] Video rejected: Outside weekly time window - April 30, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,541 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,541 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,543 - INFO - [-] Video rejected: Outside weekly time window - EURUSD Analysis Today | JANUARY 27 - 31 2025  | EURUSD Weekly Forecast | EURUSD Technical Analysis
+2025-05-17 19:48:54,545 - INFO - [-] Video rejected: Outside weekly time window - iShares Russell 2000 ETF ( $IWM ) stock analysis
+2025-05-17 19:48:54,547 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,549 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,549 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: Netflix, Adobe, Tesla, Suntec REIT, OUE REIT, Tech Analysis & More
+2025-05-17 19:48:54,551 - INFO - [-] Video rejected: Outside weekly time window - April 29, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,575 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,577 - INFO - [-] Video rejected: Outside weekly time window - D-Wave Quantum Inc. ( $QBTS ) stock analysis
+2025-05-17 19:48:54,578 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,579 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,580 - INFO - [-] Video rejected: Outside weekly time window - USDJPY Analysis Today | JANUARY 27 - 31 2025 | USDJPY Weekly Forecast | USDJPY Technical Analysis
+2025-05-17 19:48:54,580 - INFO - [-] Video rejected: Outside weekly time window - PhillipCapital 50th Anniversary Appreciation Gala
+2025-05-17 19:48:54,582 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,583 - INFO - [-] Video rejected: Outside weekly time window - April 28, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,606 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,606 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,607 - INFO - [-] Video rejected: Outside weekly time window - Apple Inc. ( $AAPL ) stock analysis
+2025-05-17 19:48:54,608 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】关税弹出又弹入 暂缓声明能令美股重拾升势?｜比特币为何突然突破行情?｜辉立证券香港董事 - 黄玮杰先生（Louis Wong)、潘渡金融虚拟资产投资经理 - 邓力文(Nick Tang)
+2025-05-17 19:48:54,608 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,611 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis JANUARY 27 - 31, 2025 NATGAS
+2025-05-17 19:48:54,614 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,615 - INFO - [-] Video rejected: Outside weekly time window - Trading Isn't a Recipe You Wing
+2025-05-17 19:48:54,635 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,635 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,635 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,636 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis JANUARY 27 - 31, 2025 CRUDE OIL
+2025-05-17 19:48:54,636 - INFO - [-] Video rejected: Outside weekly time window - Oklo Inc. ( $OKLO ) stock analysis
+2025-05-17 19:48:54,637 - INFO - [-] Video rejected: Outside weekly time window - Are You a HENRY? (High Earner, Not Rich Yet) - Sipping Tea with Phillip Wealth Advisory
+2025-05-17 19:48:54,663 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,667 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,667 - INFO - [-] Video rejected: Outside weekly time window - April 25, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,668 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,669 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:48:54,669 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,670 - INFO - [-] Video rejected: Outside weekly time window - Lucid Group, Inc. ( $LCID ) stock analysis
+2025-05-17 19:48:54,672 - INFO - [-] Video rejected: Outside weekly time window - Debunking Financial Misconceptions: Tips to Get Started - Sipping Tea with Phillip Wealth Advisory
+2025-05-17 19:48:54,697 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,699 - INFO - [-] Video rejected: Outside weekly time window - Making the Turn AMA, Episode 3 - Futures Trading Focused Ask Me Anything Series
+2025-05-17 19:48:54,700 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,701 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,702 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,703 - INFO - [-] Video rejected: Outside weekly time window - 【线上中文讲座回放】逆风翻盘指南：活跃交易者的杠杆与反向ETF布局
+2025-05-17 19:48:54,703 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis JANUARY 27 - 31, 2024 XAU/USD GOLD
+2025-05-17 19:48:54,704 - INFO - [-] Video rejected: Outside weekly time window - SPDR Dow Jones Industrial Avera ( $DIA ) stock analysis
+2025-05-17 19:48:54,753 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,753 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,754 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,755 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,755 - INFO - [-] Video rejected: Outside weekly time window - Invesco QQQ Trust, Series 1 ( $QQQ ) stock analysis
+2025-05-17 19:48:54,755 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: US Banks, KDCREIT, Soilbuild, Microsoft, Airbnb, SG Banks, Tech Analysis
+2025-05-17 19:48:54,756 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis JANUARY 06 - 10, 2023 CRUDE OIL
+2025-05-17 19:48:54,757 - INFO - [-] Video rejected: Outside weekly time window - April 24, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,780 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,781 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,781 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,781 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,782 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Climbs 0.41% Despite Looking Tired and Overbought
+2025-05-17 19:48:54,782 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,783 - INFO - [-] Video rejected: Outside weekly time window - April 23, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,783 - INFO - [-] Video rejected: Outside weekly time window - Market Watch: S-REITs a hidden GEM?
+2025-05-17 19:48:54,783 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis JANUARY 06 - 10, 2024 NATGAS
+2025-05-17 19:48:54,785 - INFO - [-] Video rejected: Outside weekly time window - Super Micro Computer, Inc. ( $SMCI ) stock analysis
+2025-05-17 19:48:54,810 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,811 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,812 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,812 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: US Strategy & Stock Picks, Technical Analysis, SG Weekly & More!
+2025-05-17 19:48:54,813 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,813 - INFO - [-] Video rejected: Outside weekly time window - April 22, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,814 - INFO - [-] Video rejected: Outside weekly time window - Daily Update Podcast for Friday May 16, 2025
+2025-05-17 19:48:54,816 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:48:54,823 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,823 - INFO - [-] Video rejected: Outside weekly time window - Newegg Commerce, Inc. ( $NEGG ) stock analysis
+2025-05-17 19:48:54,841 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,841 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,842 - INFO - [-] Video rejected: Outside weekly time window - April 21, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,845 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,848 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】中美贸易战升级 恒指可守稳20000点?｜油价 保险股 航运股 前景堪虞?｜辉立证券香港董事 - 黄玮杰先生（Louis Wong)、李晓然
+2025-05-17 19:48:54,849 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,849 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis JANUARY 06 - 10, 2024 XAU/USD GOLD
+2025-05-17 19:48:54,850 - INFO - [-] Video rejected: Outside weekly time window - A Quiet Climb with Signs of Fatigue
+2025-05-17 19:48:54,870 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,871 - INFO - [-] Video rejected: Outside weekly time window - April 17, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:54,875 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,879 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,881 - INFO - [-] Video rejected: Outside weekly time window - 初心者から経験者まで！米国投資セミナー【次のマグニフィセント・セブン候補を探せ！】
+2025-05-17 19:48:54,882 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis DECEMBER 23 - 27, 2024 NATGAS
+2025-05-17 19:48:54,883 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,884 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,885 - INFO - [-] Video rejected: Outside weekly time window - Daily Update Podcast for Thursday May 15, 2025
+2025-05-17 19:48:54,886 - INFO - [-] Video rejected: Outside weekly time window - SPDR S&P 500 ( $SPY ) stock analysis
+2025-05-17 19:48:54,900 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,900 - INFO - [-] Video rejected: Outside weekly time window - 187Shogun's Trading Journey | Accelerator Program
+2025-05-17 19:48:54,909 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,911 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis DECEMBER 23 - 27, 2023 CRUDE OIL
+2025-05-17 19:48:54,915 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,915 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,915 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,916 - INFO - [-] Video rejected: Outside weekly time window - Rigetti Computing, Inc. ( $RGTI ) stock analysis
+2025-05-17 19:48:54,917 - INFO - [-] Video rejected: Outside weekly time window - Market Surges After Trade Talks! What’s Next?
+2025-05-17 19:48:54,918 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: SG 2Q25 Equity Strategy, Technical Analysis & More
+2025-05-17 19:48:54,938 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,942 - INFO - [-] Video rejected: Outside weekly time window - the_rook's Trading Journey | Accelerator Program
+2025-05-17 19:48:54,946 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,946 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,947 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,947 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,948 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:48:54,948 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 May 12, 2025 Trade Talks, Low Volume, and Market Uncertainty
+2025-05-17 19:48:54,949 - INFO - [-] Video rejected: Outside weekly time window - Market Watch: Analysing Singapore Banks and When to Invest in Them
+2025-05-17 19:48:54,950 - INFO - [-] Video rejected: Outside weekly time window - Tencent Music Entertainment Gro ( $TME ) stock analysis
+2025-05-17 19:48:54,975 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,977 - INFO - [-] Video rejected: Outside weekly time window - What’s Next for the S&P 500 This Week?
+2025-05-17 19:48:54,979 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,982 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,982 - INFO - [-] Video rejected: Outside weekly time window - First Solar, Inc. ( $FSLR ) stock analysis
+2025-05-17 19:48:54,982 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,985 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】关税风暴波及全球美国陷入衰退危机？｜ AI资本支出过高？泡沫即将爆破？｜辉立证券香港董事 - 黄玮杰先生（Louis Wong)、李明翰
+2025-05-17 19:48:54,988 - INFO - [-] Video rejected: Outside weekly time window - Stop Placement and R-Factor
+2025-05-17 19:48:54,989 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:54,993 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis DECEMBER 23 - 27, 2024 XAU/USD GOLD
+2025-05-17 19:48:55,014 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,018 - INFO - [-] Video rejected: Outside weekly time window - Coinbase Global, Inc. ( $COIN ) stock analysis
+2025-05-17 19:48:55,019 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,021 - INFO - [-] Video rejected: Outside weekly time window - Invest Globally with POEMS
+2025-05-17 19:48:55,025 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,034 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,037 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Friday May 9, 2025
+2025-05-17 19:48:55,038 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis DECEMBER 02 - 06, 2023 CRUDE OIL
+2025-05-17 19:48:55,047 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,049 - INFO - [-] Video rejected: Outside weekly time window - April 16, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:55,055 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,055 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,055 - INFO - [-] Video rejected: Outside weekly time window - SPDR Dow Jones Industrial Avera ( $DIA ) stock analysis
+2025-05-17 19:48:55,059 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】关税重塑全球汽车业布局？中国车企为何配股？ ｜消费板块是否过热超买?｜辉立证券香港董事 - 黄玮杰先生（Louis Wong)、戴霓羽
+2025-05-17 19:48:55,074 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,075 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,077 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis DECEMBER 02 - 06, 2024 NATGAS
+2025-05-17 19:48:55,078 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Thursday May 8, 2025
+2025-05-17 19:48:55,087 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,087 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,088 - INFO - [-] Video rejected: Outside weekly time window - iShares Russell 2000 ETF ( $IWM ) stock analysis
+2025-05-17 19:48:55,088 - INFO - [-] Video rejected: Outside weekly time window - 【线上中文讲座回放】DeepSeek崛起：挑战、颠覆、还是机遇？
+2025-05-17 19:48:55,092 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,094 - INFO - [-] Video rejected: Outside weekly time window - April 15, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:55,106 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,107 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:48:55,110 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,110 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Wednesday May 7, 2025
+2025-05-17 19:48:55,118 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,120 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,120 - INFO - [-] Video rejected: Outside weekly time window - NVIDIA Corporation ( $NVDA ) stock analysis
+2025-05-17 19:48:55,121 - INFO - [-] Video rejected: Outside weekly time window - Ask Me Anything: How Can You Stay Financially Secure Amid Career Uncertainty?
+2025-05-17 19:48:55,126 - INFO - 
+Number of recent videos found for PhillipCapital: 0
+2025-05-17 19:48:55,133 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,140 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Tuesday May 6, 2025
+2025-05-17 19:48:55,143 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,147 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis DECEMBER 02 - 06, 2024 XAU/USD GOLD
+2025-05-17 19:48:55,150 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,171 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,172 - INFO - [-] Video rejected: Outside weekly time window - April 14, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:55,173 - INFO - [-] Video rejected: Outside weekly time window - Tesla, Inc. ( $TSLA ) stock analysis
+2025-05-17 19:48:55,198 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,199 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,201 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,204 - INFO - [-] Video rejected: Outside weekly time window - What to Watch Update for Monday May 5, 2025
+2025-05-17 19:48:55,205 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis NOVEMBER 18 - 22, 2023 CRUDE OIL
+2025-05-17 19:48:55,206 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,212 - INFO - 
+Number of recent videos found for absoluteandawesomeTrade: 0
+2025-05-17 19:48:55,218 - INFO - [-] Video rejected: Outside weekly time window - April 11, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:55,221 - INFO - [-] Video rejected: Outside weekly time window - Meta Platforms, Inc. ( $META ) stock analysis
+2025-05-17 19:48:55,236 - INFO - 
+Number of recent videos found for SpicyTrade: 0
+2025-05-17 19:48:55,249 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,251 - INFO - [-] Video rejected: Outside weekly time window - Deep Dive Update for Monday May 5, 2025
+2025-05-17 19:48:55,286 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,287 - INFO - [-] Video rejected: Outside weekly time window - April 10, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:48:55,319 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,332 - INFO - [-] Video rejected: Outside weekly time window - InterMarket Analysis Update for Monday May 5, 2025
+2025-05-17 19:48:55,360 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,360 - INFO - [-] Video rejected: Outside weekly time window - Untreated Injuries, Unfixed Trading Problems
+2025-05-17 19:48:55,372 - INFO - 
+Number of recent videos found for ConvergentTrading: 0
+2025-05-17 19:48:55,388 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,389 - INFO - [-] Video rejected: Outside weekly time window - Weekly Update for May 5-9, 2025
+2025-05-17 19:48:55,415 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,415 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update For Monday May 5, 2025
+2025-05-17 19:48:55,438 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,439 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Friday May 2, 2025
+2025-05-17 19:48:55,472 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,473 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Thursday May 1, 2025
+2025-05-17 19:48:55,497 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,498 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Wednesday April 30, 2025
+2025-05-17 19:48:55,523 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,523 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Tuesday April 29, 2025
+2025-05-17 19:48:55,554 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,555 - INFO - [-] Video rejected: Outside weekly time window - What to Watch for Monday April 28, 2025
+2025-05-17 19:48:55,581 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,582 - INFO - [-] Video rejected: Outside weekly time window - Deep Dive Update for Monday April 28, 2025
+2025-05-17 19:48:55,607 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,608 - INFO - [-] Video rejected: Outside weekly time window - InterMarket Analysis Update for April 28 May 2, 2025
+2025-05-17 19:48:55,635 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,636 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Weekly Update for April 28 May 2, 2025
+2025-05-17 19:48:55,673 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,674 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update For Monday April 28, 2025
+2025-05-17 19:48:55,704 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,705 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update For Friday April 25, 2025
+2025-05-17 19:48:55,738 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,739 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Thursday April 24, 2025
+2025-05-17 19:48:55,767 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,767 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Wednesday April 23, 2025
+2025-05-17 19:48:55,793 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,793 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Tuesday April 22, 2025
+2025-05-17 19:48:55,819 - INFO - Collecting videos from 2025-05-16 14:18 UTC to 2025-05-17 14:18 UTC
+2025-05-17 19:48:55,820 - INFO - [-] Video rejected: Outside weekly time window - What to Watch Update for Monday April 21, 2025
+2025-05-17 19:48:55,834 - INFO - 
+Number of recent videos found for SPXInvesting: 0
+2025-05-17 19:48:55,844 - INFO - All video information has been saved to 'D:\chat_with_rag\YOUTUBE\Outputs\2025-05-17'
+2025-05-17 19:48:55,846 - INFO - Total number of videos across all channels: 0
+2025-05-17 19:48:55,848 - INFO - 
+==================================================
+2025-05-17 19:48:55,850 - INFO - === Statistics ===
+2025-05-17 19:48:55,851 - INFO - ==================================================
+2025-05-17 19:48:55,852 - INFO - Total channels processed: 0
+2025-05-17 19:48:55,855 - INFO - Total videos collected: 0
+2025-05-17 19:48:55,856 - INFO - Total views: 0
+2025-05-17 19:48:55,858 - INFO - Total likes: 0
+2025-05-17 19:48:55,859 - INFO - Total comments: 0
+2025-05-17 19:48:55,860 - INFO - Total subscribers: 0
+2025-05-17 19:48:55,864 - INFO - Total video duration: 00:00
+2025-05-17 19:48:55,865 - INFO - View ratio: 0.00%
+2025-05-17 19:48:55,866 - INFO - Likes ratio: 0.00%
+2025-05-17 19:48:55,867 - INFO - Quota used: 0 units
+2025-05-17 19:48:55,869 - INFO - ==================================================
+
+2025-05-17 19:48:55,870 - INFO - Video collection completed successfully. Results saved to: D:\chat_with_rag\YOUTUBE\Outputs\2025-05-17
+2025-05-17 19:49:35,136 - INFO - YouTube API key loaded successfully
+2025-05-17 19:49:35,142 - INFO - file_cache is only supported with oauth2client<4.0.0
+2025-05-17 19:49:35,264 - INFO - 
+==================================================
+Starting video collection for 5 channels
+==================================================
+2025-05-17 19:49:35,291 - INFO - 
+==================================================
+Fetching videos for channel: SPXInvesting
+==================================================
+2025-05-17 19:49:35,293 - INFO - 
+==================================================
+Fetching videos for channel: absoluteandawesomeTrade
+==================================================
+2025-05-17 19:49:35,293 - INFO - 
+==================================================
+Fetching videos for channel: SpicyTrade
+==================================================
+2025-05-17 19:49:35,294 - INFO - 
+==================================================
+Fetching videos for channel: PhillipCapital
+==================================================
+2025-05-17 19:49:35,295 - INFO - 
+==================================================
+Fetching videos for channel: ConvergentTrading
+==================================================
+2025-05-17 19:49:38,942 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,068 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,070 - INFO - [-] Video rejected: Outside weekly time window - iShares Russell 2000 ETF ( $IWM ) stock analysis
+2025-05-17 19:49:39,072 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,073 - INFO - [-] Video rejected: Outside weekly time window - Foot Locker, Inc. ( $FL ) stock analysis
+2025-05-17 19:49:39,074 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,075 - INFO - [-] Video rejected: Outside weekly time window - Hims & Hers Health, Inc. ( $HIMS ) stock analysis
+2025-05-17 19:49:39,077 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,078 - INFO - [-] Video rejected: Outside weekly time window - Invesco QQQ Trust, Series 1 ( $QQQ ) stock analysis
+2025-05-17 19:49:39,079 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,080 - INFO - [-] Video rejected: Outside weekly time window - Archer Aviation Inc. ( $ACHR ) stock analysis
+2025-05-17 19:49:39,081 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,082 - INFO - [-] Video rejected: Outside weekly time window - SPDR Dow Jones Industrial Avera ( $DIA ) stock analysis
+2025-05-17 19:49:39,083 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,083 - INFO - [-] Video rejected: Outside weekly time window - SPDR S&P 500 ( $SPY ) stock analysis
+2025-05-17 19:49:39,084 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,086 - INFO - [-] Video rejected: Outside weekly time window - D-Wave Quantum Inc. ( $QBTS ) stock analysis
+2025-05-17 19:49:39,087 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,087 - INFO - [-] Video rejected: Outside weekly time window - UnitedHealth Group Incorporated ( $UNH ) stock analysis
+2025-05-17 19:49:39,089 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,089 - INFO - [-] Video rejected: Outside weekly time window - Walmart Inc. ( $WMT ) stock analysis
+2025-05-17 19:49:39,091 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,091 - INFO - [-] Video rejected: Outside weekly time window - Regencell Bioscience Holdings L ( $RGC ) stock analysis
+2025-05-17 19:49:39,093 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,094 - INFO - [-] Video rejected: Outside weekly time window - iShares Russell 2000 ETF ( $IWM ) stock analysis
+2025-05-17 19:49:39,095 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,095 - INFO - [-] Video rejected: Outside weekly time window - D-Wave Quantum Inc. ( $QBTS ) stock analysis
+2025-05-17 19:49:39,097 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,098 - INFO - [-] Video rejected: Outside weekly time window - Apple Inc. ( $AAPL ) stock analysis
+2025-05-17 19:49:39,099 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,100 - INFO - [-] Video rejected: Outside weekly time window - Oklo Inc. ( $OKLO ) stock analysis
+2025-05-17 19:49:39,101 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,102 - INFO - [-] Video rejected: Outside weekly time window - Lucid Group, Inc. ( $LCID ) stock analysis
+2025-05-17 19:49:39,103 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,103 - INFO - [-] Video rejected: Outside weekly time window - SPDR Dow Jones Industrial Avera ( $DIA ) stock analysis
+2025-05-17 19:49:39,104 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,105 - INFO - [-] Video rejected: Outside weekly time window - Invesco QQQ Trust, Series 1 ( $QQQ ) stock analysis
+2025-05-17 19:49:39,108 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,108 - INFO - [-] Video rejected: Outside weekly time window - Super Micro Computer, Inc. ( $SMCI ) stock analysis
+2025-05-17 19:49:39,110 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,111 - INFO - [-] Video rejected: Outside weekly time window - Newegg Commerce, Inc. ( $NEGG ) stock analysis
+2025-05-17 19:49:39,113 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,114 - INFO - [-] Video rejected: Outside weekly time window - SPDR S&P 500 ( $SPY ) stock analysis
+2025-05-17 19:49:39,115 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,116 - INFO - [-] Video rejected: Outside weekly time window - Rigetti Computing, Inc. ( $RGTI ) stock analysis
+2025-05-17 19:49:39,118 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,119 - INFO - [-] Video rejected: Outside weekly time window - Tencent Music Entertainment Gro ( $TME ) stock analysis
+2025-05-17 19:49:39,126 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,126 - INFO - [-] Video rejected: Outside weekly time window - First Solar, Inc. ( $FSLR ) stock analysis
+2025-05-17 19:49:39,170 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,172 - INFO - [-] Video rejected: Outside weekly time window - Coinbase Global, Inc. ( $COIN ) stock analysis
+2025-05-17 19:49:39,173 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,180 - INFO - [-] Video rejected: Outside weekly time window - Market Watch: Outlook on Gold
+2025-05-17 19:49:39,211 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,211 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,212 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,212 - INFO - [-] Video rejected: Outside weekly time window - Behind the Shave: People of PhillipCapital Reveal What Hair for Hope Means to Them
+2025-05-17 19:49:39,213 - INFO - [-] Video rejected: Outside weekly time window - SPDR Dow Jones Industrial Avera ( $DIA ) stock analysis
+2025-05-17 19:49:39,213 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis MARCH 31 - APRIL 4, 2025 NATGAS
+2025-05-17 19:49:39,215 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,216 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,217 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,217 - INFO - [-] Video rejected: Outside weekly time window - Meet POEMS GPT - Financial AI Investment Assistant Powered by Generative AI
+2025-05-17 19:49:39,218 - INFO - [-] Video rejected: Outside weekly time window - iShares Russell 2000 ETF ( $IWM ) stock analysis
+2025-05-17 19:49:39,218 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis MARCH 31 - APRIL 4, 2025 CRUDE OIL
+2025-05-17 19:49:39,219 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,220 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,221 - INFO - [-] Video rejected: Outside weekly time window - 专业中文交易团队 | 提供全中文服务 | 轻松交易全球20多个国家及地区股票,马来西亚股、越南股、韩国股、印尼股、英国股、德国股、日本股等
+2025-05-17 19:49:39,222 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,222 - INFO - [-] Video rejected: Outside weekly time window - NVIDIA Corporation ( $NVDA ) stock analysis
+2025-05-17 19:49:39,224 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis MARCH 31 - APRIL 4, 2024 XAU/USD GOLD
+2025-05-17 19:49:39,225 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,226 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,227 - INFO - [-] Video rejected: Outside weekly time window - 辉立证券 | 创立于1975年 | 专业中文交易团队 | 提供全中文服务 | 一美元，轻松买入明星美股！解锁美股的无限投资潜力！
+2025-05-17 19:49:39,228 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,228 - INFO - [-] Video rejected: Outside weekly time window - Tesla, Inc. ( $TSLA ) stock analysis
+2025-05-17 19:49:39,229 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:49:39,230 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,231 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,231 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,231 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】美英协议带动美股 比特币升破10万只是开始？ ｜芯片股业绩两极化 如何看待其前景? ｜辉立证券香港董事 黄玮杰先生（Louis Wong)、李明翰
+2025-05-17 19:49:39,232 - INFO - [-] Video rejected: Outside weekly time window - Meta Platforms, Inc. ( $META ) stock analysis
+2025-05-17 19:49:39,233 - INFO - [-] Video rejected: Outside weekly time window - USDJPY Analysis Today | MARCH 17 - 21 2025 | USDJPY Weekly Forecast | USDJPY Technical Analysis
+2025-05-17 19:49:39,235 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,237 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,238 - INFO - [-] Video rejected: Outside weekly time window - 如何在POEMS Mobile 3 App上设置数字密钥
+2025-05-17 19:49:39,242 - INFO - 
+Number of recent videos found for SpicyTrade: 0
+2025-05-17 19:49:39,242 - INFO - [-] Video rejected: Outside weekly time window - EURUSD Analysis Today | MARCH 17 - 21 2025  | EURUSD Weekly Forecast | EURUSD Technical Analysis
+2025-05-17 19:49:39,245 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,246 - INFO - [-] Video rejected: Outside weekly time window - How to set up Digital Token on POEMS Mobile 3 App?
+2025-05-17 19:49:39,247 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,247 - INFO - [-] Video rejected: Outside weekly time window - US30 Weekly Forecast | US30 Technical Analysis | DOW JONES Analysis | DOW JONES Daily Forecast
+2025-05-17 19:49:39,248 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,249 - INFO - [-] Video rejected: Outside weekly time window - Market Watch: Why S-REITs Shine Amid Market Volatility
+2025-05-17 19:49:39,249 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,250 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis MARCH 17 - 21, 2025 CRUDE OIL
+2025-05-17 19:49:39,251 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,251 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】恒指走势有突破? 该如何布局?｜中国狂卖黄金 加密货币可否作避险部署? ｜辉立证券香港董事 黄玮杰先生（Louis Wong)、华夏基金国际业务经理 程俊杰(Albert Cheng)
+2025-05-17 19:49:39,252 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,252 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:49:39,253 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,253 - INFO - [-] Video rejected: Outside weekly time window - China/Hong Kong Macro Update with CSOP Asset Management
+2025-05-17 19:49:39,254 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,255 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis MARCH 17 - 21, 2024 XAU/USD GOLD
+2025-05-17 19:49:39,256 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,257 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,258 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: Apple, Spotify, MSFT, CLI, Technical Analysis, SG Weekly & More!
+2025-05-17 19:49:39,258 - INFO - [-] Video rejected: Outside weekly time window - GBPUSD Analysis Today | JANUARY 27 - 31 2025  | GBPUSD Forecast | GBP/USD Technical Analysis
+2025-05-17 19:49:39,260 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,260 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,261 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: Netflix, Adobe, Tesla, Suntec REIT, OUE REIT, Tech Analysis & More
+2025-05-17 19:49:39,261 - INFO - [-] Video rejected: Outside weekly time window - EURUSD Analysis Today | JANUARY 27 - 31 2025  | EURUSD Weekly Forecast | EURUSD Technical Analysis
+2025-05-17 19:49:39,263 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,264 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,264 - INFO - [-] Video rejected: Outside weekly time window - PhillipCapital 50th Anniversary Appreciation Gala
+2025-05-17 19:49:39,264 - INFO - [-] Video rejected: Outside weekly time window - USDJPY Analysis Today | JANUARY 27 - 31 2025 | USDJPY Weekly Forecast | USDJPY Technical Analysis
+2025-05-17 19:49:39,266 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,267 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,267 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】关税弹出又弹入 暂缓声明能令美股重拾升势?｜比特币为何突然突破行情?｜辉立证券香港董事 - 黄玮杰先生（Louis Wong)、潘渡金融虚拟资产投资经理 - 邓力文(Nick Tang)
+2025-05-17 19:49:39,267 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis JANUARY 27 - 31, 2025 NATGAS
+2025-05-17 19:49:39,269 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,270 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,270 - INFO - [-] Video rejected: Outside weekly time window - Are You a HENRY? (High Earner, Not Rich Yet) - Sipping Tea with Phillip Wealth Advisory
+2025-05-17 19:49:39,271 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis JANUARY 27 - 31, 2025 CRUDE OIL
+2025-05-17 19:49:39,273 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,274 - INFO - [-] Video rejected: Outside weekly time window - Debunking Financial Misconceptions: Tips to Get Started - Sipping Tea with Phillip Wealth Advisory
+2025-05-17 19:49:39,275 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,275 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:49:39,276 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,277 - INFO - [-] Video rejected: Outside weekly time window - 【线上中文讲座回放】逆风翻盘指南：活跃交易者的杠杆与反向ETF布局
+2025-05-17 19:49:39,278 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,279 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis JANUARY 27 - 31, 2024 XAU/USD GOLD
+2025-05-17 19:49:39,280 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,281 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: US Banks, KDCREIT, Soilbuild, Microsoft, Airbnb, SG Banks, Tech Analysis
+2025-05-17 19:49:39,282 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,282 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis JANUARY 06 - 10, 2023 CRUDE OIL
+2025-05-17 19:49:39,283 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,284 - INFO - [-] Video rejected: Outside weekly time window - Market Watch: S-REITs a hidden GEM?
+2025-05-17 19:49:39,285 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,286 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis JANUARY 06 - 10, 2024 NATGAS
+2025-05-17 19:49:39,286 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,288 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: US Strategy & Stock Picks, Technical Analysis, SG Weekly & More!
+2025-05-17 19:49:39,289 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,289 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:49:39,290 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,291 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】中美贸易战升级 恒指可守稳20000点?｜油价 保险股 航运股 前景堪虞?｜辉立证券香港董事 - 黄玮杰先生（Louis Wong)、李晓然
+2025-05-17 19:49:39,291 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,293 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis JANUARY 06 - 10, 2024 XAU/USD GOLD
+2025-05-17 19:49:39,294 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,295 - INFO - [-] Video rejected: Outside weekly time window - 初心者から経験者まで！米国投資セミナー【次のマグニフィセント・セブン候補を探せ！】
+2025-05-17 19:49:39,295 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,296 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis DECEMBER 23 - 27, 2024 NATGAS
+2025-05-17 19:49:39,296 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,297 - INFO - [-] Video rejected: Outside weekly time window - Weekly Market Outlook: SG 2Q25 Equity Strategy, Technical Analysis & More
+2025-05-17 19:49:39,297 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,298 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis DECEMBER 23 - 27, 2023 CRUDE OIL
+2025-05-17 19:49:39,299 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,300 - INFO - [-] Video rejected: Outside weekly time window - Market Watch: Analysing Singapore Banks and When to Invest in Them
+2025-05-17 19:49:39,300 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,301 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:49:39,302 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,302 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】关税风暴波及全球美国陷入衰退危机？｜ AI资本支出过高？泡沫即将爆破？｜辉立证券香港董事 - 黄玮杰先生（Louis Wong)、李明翰
+2025-05-17 19:49:39,303 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,304 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis DECEMBER 23 - 27, 2024 XAU/USD GOLD
+2025-05-17 19:49:39,304 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,305 - INFO - [-] Video rejected: Outside weekly time window - Invest Globally with POEMS
+2025-05-17 19:49:39,306 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,307 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis DECEMBER 02 - 06, 2023 CRUDE OIL
+2025-05-17 19:49:39,308 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,308 - INFO - [-] Video rejected: Outside weekly time window - 【辉立周末报】关税重塑全球汽车业布局？中国车企为何配股？ ｜消费板块是否过热超买?｜辉立证券香港董事 - 黄玮杰先生（Louis Wong)、戴霓羽
+2025-05-17 19:49:39,309 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,309 - INFO - [-] Video rejected: Outside weekly time window - NATURAL GAS Weekly Forecast & Technical Analysis DECEMBER 02 - 06, 2024 NATGAS
+2025-05-17 19:49:39,310 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,311 - INFO - [-] Video rejected: Outside weekly time window - 【线上中文讲座回放】DeepSeek崛起：挑战、颠覆、还是机遇？
+2025-05-17 19:49:39,312 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,313 - INFO - [-] Video rejected: Outside weekly time window - NASDAQ100 Weekly Forecast | NAS100 Technical Analysis | NAS100 Analysis | NASDAQ 100 Daily Forecast
+2025-05-17 19:49:39,313 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,314 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,314 - INFO - [-] Video rejected: Outside weekly time window - Ask Me Anything: How Can You Stay Financially Secure Amid Career Uncertainty?
+2025-05-17 19:49:39,315 - INFO - [-] Video rejected: Outside weekly time window - XAUUSD (GOLD) Forecast & Technical Analysis DECEMBER 02 - 06, 2024 XAU/USD GOLD
+2025-05-17 19:49:39,319 - INFO - 
+Number of recent videos found for PhillipCapital: 0
+2025-05-17 19:49:39,320 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:39,320 - INFO - [-] Video rejected: Outside weekly time window - WTI CRUDE OIL Forecast & Technical Analysis NOVEMBER 18 - 22, 2023 CRUDE OIL
+2025-05-17 19:49:39,325 - INFO - 
+Number of recent videos found for absoluteandawesomeTrade: 0
+2025-05-17 19:49:39,469 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:40,897 - INFO - [+] Video accepted: S&P 500 Climbs 0.41% Despite Looking Tired and Overbought
+2025-05-17 19:49:40,899 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,227 - INFO - [+] Video accepted: May 16, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,228 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,229 - INFO - [-] Video rejected: Outside weekly time window - May 15, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,230 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,231 - INFO - [-] Video rejected: Outside weekly time window - Discretion in the Target. Process in the Launch
+2025-05-17 19:49:41,232 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,232 - INFO - [-] Video rejected: Outside weekly time window - May 14, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,234 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,234 - INFO - [-] Video rejected: Outside weekly time window - May 9, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,236 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,236 - INFO - [-] Video rejected: Outside weekly time window - 2025 05 08   The Opening Swing
+2025-05-17 19:49:41,238 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,239 - INFO - [-] Video rejected: Outside weekly time window - May 7, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,240 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,240 - INFO - [-] Video rejected: Outside weekly time window - May 6, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,242 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,243 - INFO - [-] Video rejected: Outside weekly time window - May 2, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,244 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,244 - INFO - [-] Video rejected: Outside weekly time window - May 1, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,245 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,246 - INFO - [-] Video rejected: Outside weekly time window - April 30, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,247 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,248 - INFO - [-] Video rejected: Outside weekly time window - April 29, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,250 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,250 - INFO - [-] Video rejected: Outside weekly time window - April 28, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,252 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,252 - INFO - [-] Video rejected: Outside weekly time window - Trading Isn't a Recipe You Wing
+2025-05-17 19:49:41,254 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,255 - INFO - [-] Video rejected: Outside weekly time window - April 25, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,257 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,257 - INFO - [-] Video rejected: Outside weekly time window - Making the Turn AMA, Episode 3 - Futures Trading Focused Ask Me Anything Series
+2025-05-17 19:49:41,259 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,259 - INFO - [-] Video rejected: Outside weekly time window - April 24, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,261 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,261 - INFO - [-] Video rejected: Outside weekly time window - April 23, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,262 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,263 - INFO - [-] Video rejected: Outside weekly time window - April 22, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,264 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,264 - INFO - [-] Video rejected: Outside weekly time window - April 21, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,266 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,266 - INFO - [-] Video rejected: Outside weekly time window - April 17, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,268 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,268 - INFO - [-] Video rejected: Outside weekly time window - 187Shogun's Trading Journey | Accelerator Program
+2025-05-17 19:49:41,270 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,270 - INFO - [-] Video rejected: Outside weekly time window - the_rook's Trading Journey | Accelerator Program
+2025-05-17 19:49:41,272 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,272 - INFO - [-] Video rejected: Outside weekly time window - Stop Placement and R-Factor
+2025-05-17 19:49:41,274 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,274 - INFO - [-] Video rejected: Outside weekly time window - April 16, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,276 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,277 - INFO - [-] Video rejected: Outside weekly time window - April 15, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,278 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,279 - INFO - [-] Video rejected: Outside weekly time window - April 14, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,280 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,281 - INFO - [-] Video rejected: Outside weekly time window - April 11, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,282 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,282 - INFO - [-] Video rejected: Outside weekly time window - April 10, 2025 – ES / S&P 500 Daily Market Prep w/ John471 | Learn to Trade Futures with Convergent
+2025-05-17 19:49:41,284 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:41,284 - INFO - [-] Video rejected: Outside weekly time window - Untreated Injuries, Unfixed Trading Problems
+2025-05-17 19:49:41,288 - INFO - 
+Number of recent videos found for ConvergentTrading: 1
+2025-05-17 19:49:42,309 - INFO - [+] Video accepted: Daily Update Podcast for Friday May 16, 2025
+2025-05-17 19:49:42,310 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,311 - INFO - [-] Video rejected: Outside weekly time window - A Quiet Climb with Signs of Fatigue
+2025-05-17 19:49:42,312 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,313 - INFO - [-] Video rejected: Outside weekly time window - Daily Update Podcast for Thursday May 15, 2025
+2025-05-17 19:49:42,314 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,315 - INFO - [-] Video rejected: Outside weekly time window - Market Surges After Trade Talks! What’s Next?
+2025-05-17 19:49:42,317 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,318 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 May 12, 2025 Trade Talks, Low Volume, and Market Uncertainty
+2025-05-17 19:49:42,319 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,319 - INFO - [-] Video rejected: Outside weekly time window - What’s Next for the S&P 500 This Week?
+2025-05-17 19:49:42,321 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,322 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Friday May 9, 2025
+2025-05-17 19:49:42,324 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,324 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Thursday May 8, 2025
+2025-05-17 19:49:42,326 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,326 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Wednesday May 7, 2025
+2025-05-17 19:49:42,328 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,328 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Tuesday May 6, 2025
+2025-05-17 19:49:42,330 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,330 - INFO - [-] Video rejected: Outside weekly time window - What to Watch Update for Monday May 5, 2025
+2025-05-17 19:49:42,332 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,332 - INFO - [-] Video rejected: Outside weekly time window - Deep Dive Update for Monday May 5, 2025
+2025-05-17 19:49:42,334 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,334 - INFO - [-] Video rejected: Outside weekly time window - InterMarket Analysis Update for Monday May 5, 2025
+2025-05-17 19:49:42,335 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,336 - INFO - [-] Video rejected: Outside weekly time window - Weekly Update for May 5-9, 2025
+2025-05-17 19:49:42,338 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,338 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update For Monday May 5, 2025
+2025-05-17 19:49:42,338 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,342 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Friday May 2, 2025
+2025-05-17 19:49:42,342 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,344 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Thursday May 1, 2025
+2025-05-17 19:49:42,345 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,346 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Wednesday April 30, 2025
+2025-05-17 19:49:42,347 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,348 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Tuesday April 29, 2025
+2025-05-17 19:49:42,350 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,351 - INFO - [-] Video rejected: Outside weekly time window - What to Watch for Monday April 28, 2025
+2025-05-17 19:49:42,352 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,352 - INFO - [-] Video rejected: Outside weekly time window - Deep Dive Update for Monday April 28, 2025
+2025-05-17 19:49:42,353 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,355 - INFO - [-] Video rejected: Outside weekly time window - InterMarket Analysis Update for April 28 May 2, 2025
+2025-05-17 19:49:42,357 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,358 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Weekly Update for April 28 May 2, 2025
+2025-05-17 19:49:42,360 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,360 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update For Monday April 28, 2025
+2025-05-17 19:49:42,362 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,362 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update For Friday April 25, 2025
+2025-05-17 19:49:42,365 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,365 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Thursday April 24, 2025
+2025-05-17 19:49:42,367 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,367 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Wednesday April 23, 2025
+2025-05-17 19:49:42,368 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,368 - INFO - [-] Video rejected: Outside weekly time window - S&P 500 Daily Update for Tuesday April 22, 2025
+2025-05-17 19:49:42,371 - INFO - Collecting videos from 2025-05-15 14:19 UTC to 2025-05-17 14:19 UTC
+2025-05-17 19:49:42,372 - INFO - [-] Video rejected: Outside weekly time window - What to Watch Update for Monday April 21, 2025
+2025-05-17 19:49:42,378 - INFO - 
+Number of recent videos found for SPXInvesting: 2
+2025-05-17 19:49:42,397 - INFO - All video information has been saved to 'D:\chat_with_rag\YOUTUBE\Outputs\2025-05-17'
+2025-05-17 19:49:42,398 - INFO - Total number of videos across all channels: 3
+2025-05-17 19:49:42,399 - INFO - 
+==================================================
+2025-05-17 19:49:42,400 - INFO - === Statistics ===
+2025-05-17 19:49:42,401 - INFO - ==================================================
+2025-05-17 19:49:42,402 - INFO - Total channels processed: 2
+2025-05-17 19:49:42,403 - INFO - Total videos collected: 3
+2025-05-17 19:49:42,405 - INFO - Total views: 334
+2025-05-17 19:49:42,407 - INFO - Total likes: 61
+2025-05-17 19:49:42,407 - INFO - Total comments: 0
+2025-05-17 19:49:42,409 - INFO - Total subscribers: 11230
+2025-05-17 19:49:42,410 - INFO - Total video duration: 01:07
+2025-05-17 19:49:42,411 - INFO - View ratio: 2.97%
+2025-05-17 19:49:42,412 - INFO - Likes ratio: 18.26%
+2025-05-17 19:49:42,413 - INFO - Quota used: 0 units
+2025-05-17 19:49:42,413 - INFO - ==================================================
+
+2025-05-17 19:49:42,414 - INFO - Video collection completed successfully. Results saved to: D:\chat_with_rag\YOUTUBE\Outputs\2025-05-17
