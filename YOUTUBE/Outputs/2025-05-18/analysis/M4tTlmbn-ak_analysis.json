@@ -1,10 +1,83 @@
 {
-  "analysis_id": "20250518_100025",
-  "timestamp": "2025-05-18T10:00:25.783232",
+  "analysis_id": "20250518_144706",
+  "timestamp": "2025-05-18T14:47:06.185179",
   "source": {
     "type": "youtube_transcript",
     "model": "gpt-4o-mini",
     "version": "1.0"
   },
-  "stocks": []
+  "stocks": [
+    {
+      "symbol": "AAPL",
+      "last_close": 211.26,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [
+        "RSI"
+      ],
+      "sentiment": "bearish",
+      "summary": "Apple was down and still dealing with its 50-day moving average."
+    },
+    {
+      "symbol": "MSFT",
+      "last_close": 454.27,
+      "direction": "neutral",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "neutral",
+      "summary": "Microsoft was barely up but has been doing well since their earnings report."
+    },
+    {
+      "symbol": "GOOGL",
+      "last_close": 166.19,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "bearish",
+      "summary": "Google was down and still below its 200-day moving average."
+    },
+    {
+      "symbol": "AMZN",
+      "last_close": 205.59,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "bearish",
+      "summary": "Amazon was down 2.42% and still above both moving averages."
+    },
+    {
+      "symbol": "TSLA",
+      "last_close": 349.98,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "bearish",
+      "summary": "Tesla is in a downtrend but above both moving averages."
+    },
+    {
+      "symbol": "META",
+      "last_close": 640.34,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "bearish",
+      "summary": "Meta is trying to give a golden cross but was down 2.35%."
+    },
+    {
+      "symbol": "NVDA",
+      "last_close": 135.4,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "bearish",
+      "summary": "Nvidia is in a downtrend but back above both moving averages."
+    }
+  ]
 }
