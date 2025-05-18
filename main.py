@@ -1,20 +1,13 @@
-from fastapi import FastAPI, HTTPException, Request
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.staticfiles import StaticFiles
-from fastapi.templating import Jinja2Templates
-from fastapi.responses import JSONResponse, HTMLResponse
+from fastapi.responses import JSONResponse
 import subprocess
 import sys
-from typing import Dict, Any, List
+from typing import Dict, Any
 import os
 from pydantic import BaseModel
-import sys
 import logging
 from datetime import datetime
-import json
-import asyncio
-from queue import Queue
-import threading
 from collections import deque
 
 # Configure logging with a rotating buffer
@@ -69,14 +62,6 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
-
-# Mount static files and templates
-app.mount("/static", StaticFiles(directory="static"), name="static")
-templates = Jinja2Templates(directory="templates")
-
-@app.get("/", response_class=HTMLResponse)
-async def root(request: Request):
-    return templates.TemplateResponse("index.html", {"request": request})
 
 class ChatRequest(BaseModel):
     query: str
