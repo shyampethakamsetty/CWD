@@ -1,5 +1,8 @@
-from fastapi import FastAPI, HTTPException, WebSocket, WebSocketDisconnect
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.staticfiles import StaticFiles
+from fastapi.templating import Jinja2Templates
+from fastapi.responses import JSONResponse, HTMLResponse
 import subprocess
 import sys
 from typing import Dict, Any, List
@@ -12,16 +15,26 @@ import json
 import asyncio
 from queue import Queue
 import threading
+from collections import deque
 
-# Configure logging
-class WebSocketLogHandler(logging.Handler):
-    def __init__(self):
-        super().__init__()
-        self.websocket_connections: List[WebSocket] = []
-        self.log_queue = Queue()
-        self.worker_thread = threading.Thread(target=self._process_logs, daemon=True)
-        self.worker_thread.start()
+# Configure logging with a rotating buffer
+class LogBuffer:
+    def __init__(self, max_size=1000):
+        self.buffer = deque(maxlen=max_size)
 
+    def add_log(self, log_entry):
+        self.buffer.append(log_entry)
+
+    def get_recent_logs(self):
+        return list(self.buffer)
+
+    def clear(self):
+        self.buffer.clear()
+
+# Create log buffer instance
+log_buffer = LogBuffer()
+
+class LogHandler(logging.Handler):
     def emit(self, record):
         try:
             log_entry = {
@@ -29,39 +42,9 @@ class WebSocketLogHandler(logging.Handler):
                 'level': record.levelname,
                 'message': self.format(record)
             }
-            self.log_queue.put(log_entry)
+            log_buffer.add_log(log_entry)
         except Exception:
             self.handleError(record)
-
-    def _process_logs(self):
-        while True:
-            log_entry = self.log_queue.get()
-            asyncio.run(self._broadcast_log(log_entry))
-
-    async def _broadcast_log(self, log_entry):
-        disconnected = []
-        for websocket in self.websocket_connections:
-            try:
-                await websocket.send_json(log_entry)
-            except WebSocketDisconnect:
-                disconnected.append(websocket)
-            except Exception:
-                disconnected.append(websocket)
-        
-        # Remove disconnected clients
-        for websocket in disconnected:
-            self.websocket_connections.remove(websocket)
-
-    def add_connection(self, websocket: WebSocket):
-        self.websocket_connections.append(websocket)
-
-    def remove_connection(self, websocket: WebSocket):
-        if websocket in self.websocket_connections:
-            self.websocket_connections.remove(websocket)
-
-# Create custom handler instance
-websocket_handler = WebSocketLogHandler()
-websocket_handler.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
 
 # Configure root logger
 logging.basicConfig(
@@ -69,7 +52,7 @@ logging.basicConfig(
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
         logging.StreamHandler(sys.stdout),
-        websocket_handler
+        LogHandler()
     ]
 )
 logger = logging.getLogger(__name__)
@@ -87,132 +70,42 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Add logging middleware
-@app.middleware("http")
-async def log_requests(request, call_next):
-    start_time = datetime.now()
-    logger.info(f"Request started: {request.method} {request.url}")
-    
-    try:
-        response = await call_next(request)
-        process_time = (datetime.now() - start_time).total_seconds()
-        logger.info(f"Request completed: {request.method} {request.url} - Status: {response.status_code} - Time: {process_time:.2f}s")
-        return response
-    except Exception as e:
-        logger.error(f"Request failed: {request.method} {request.url} - Error: {str(e)}")
-        raise
+# Mount static files and templates
+app.mount("/static", StaticFiles(directory="static"), name="static")
+templates = Jinja2Templates(directory="templates")
 
-# WebSocket endpoint for live logs
-@app.websocket("/ws/logs")
-async def websocket_endpoint(websocket: WebSocket):
-    await websocket.accept()
-    websocket_handler.add_connection(websocket)
-    logger.info("New WebSocket connection established for logs")
-    try:
-        while True:
-            # Keep the connection alive and wait for client messages
-            data = await websocket.receive_text()
-            # You can handle any client messages here if needed
-    except WebSocketDisconnect:
-        websocket_handler.remove_connection(websocket)
-        logger.info("WebSocket connection closed")
+@app.get("/", response_class=HTMLResponse)
+async def root(request: Request):
+    return templates.TemplateResponse("index.html", {"request": request})
 
 class ChatRequest(BaseModel):
     query: str
 
-# Store active WebSocket connections
-class ConnectionManager:
-    def __init__(self):
-        self.active_connections: List[WebSocket] = []
-
-    async def connect(self, websocket: WebSocket):
-        await websocket.accept()
-        self.active_connections.append(websocket)
-
-    def disconnect(self, websocket: WebSocket):
-        self.active_connections.remove(websocket)
-
-    async def broadcast(self, message: dict):
-        for connection in self.active_connections:
-            try:
-                await connection.send_json(message)
-            except WebSocketDisconnect:
-                self.disconnect(connection)
-            except Exception as e:
-                logger.error(f"Error broadcasting message: {str(e)}")
-                self.disconnect(connection)
-
-manager = ConnectionManager()
-
-@app.websocket("/ws")
-async def websocket_endpoint(websocket: WebSocket):
-    await manager.connect(websocket)
+@app.post("/chat", response_class=JSONResponse)
+async def chat(request: ChatRequest):
+    """Execute the stock analyzer with a query"""
+    log_buffer.clear()  # Clear previous logs
+    logger.info(f"Chat request received with query: {request.query}")
     try:
-        while True:
-            data = await websocket.receive_text()
-            # Handle any client messages if needed
-    except WebSocketDisconnect:
-        manager.disconnect(websocket)
-
-async def stream_process_output(process):
-    """Stream process output in real-time"""
-    while True:
-        # Read stdout
-        output = process.stdout.readline()
-        if output:
-            # Check if the output is a warning
-            if "UserWarning" in output or "warn(" in output:
-                await manager.broadcast({
-                    "type": "warning",
-                    "data": output.strip()
-                })
-            else:
-                await manager.broadcast({
-                    "type": "output",
-                    "data": output.strip()
-                })
+        # Import the analyze_stock_query function
+        sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+        from YOUTUBE.stock_analyzer import analyze_stock_query
         
-        # Read stderr
-        error = process.stderr.readline()
-        if error:
-            # Only broadcast as error if it's not a warning
-            if "UserWarning" not in error and "warn(" not in error:
-                await manager.broadcast({
-                    "type": "error",
-                    "data": error.strip()
-                })
-            else:
-                await manager.broadcast({
-                    "type": "warning",
-                    "data": error.strip()
-                })
-        
-        # Check if process has finished
-        if process.poll() is not None:
-            # Read any remaining output
-            remaining_output = process.stdout.read()
-            remaining_error = process.stderr.read()
-            
-            if remaining_output:
-                await manager.broadcast({
-                    "type": "output",
-                    "data": remaining_output.strip()
-                })
-            if remaining_error:
-                await manager.broadcast({
-                    "type": "error",
-                    "data": remaining_error.strip()
-                })
-            
-            # Send completion message
-            await manager.broadcast({
-                "type": "process_complete",
-                "data": f"Process completed with return code: {process.returncode}"
-            })
-            break
-        
-        # Small delay to prevent CPU overuse
-        await asyncio.sleep(0.1)
+        # Execute the analysis
+        result = analyze_stock_query(request.query)
+        logger.info("Analysis completed successfully")
+        return {
+            "status": "success", 
+            "result": result,
+            "logs": log_buffer.get_recent_logs()
+        }
+    except Exception as e:
+        logger.error(f"Chat analysis failed: {str(e)}")
+        return {
+            "status": "error",
+            "error": str(e),
+            "logs": log_buffer.get_recent_logs()
+        }
 
 def run_script(script_path: str) -> Dict[str, Any]:
     try:
@@ -232,24 +125,70 @@ def run_script(script_path: str) -> Dict[str, Any]:
         ])
         env["PYTHONPATH"] = python_path
         
-        process = subprocess.Popen(
+        # Run the script and capture output
+        process = subprocess.run(
             [sys.executable, abs_script_path],
             stdout=subprocess.PIPE,
             stderr=subprocess.PIPE,
             text=True,
-            bufsize=1,
-            universal_newlines=True,
             env=env,
             cwd=project_root  # Set working directory to project root
         )
         
-        # Start a background task to stream the output
-        asyncio.create_task(stream_process_output(process))
+        # Log the output
+        if process.stdout:
+            for line in process.stdout.splitlines():
+                line = line.strip()
+                if not line:
+                    continue
+                    
+                # Parse the log line to extract level and message
+                try:
+                    # Check if the line contains a log level
+                    if " - INFO - " in line:
+                        logger.info(line.split(" - INFO - ")[-1])
+                    elif " - ERROR - " in line:
+                        logger.error(line.split(" - ERROR - ")[-1])
+                    elif " - WARNING - " in line:
+                        logger.warning(line.split(" - WARNING - ")[-1])
+                    else:
+                        # If no level is found, log as info
+                        logger.info(line)
+                except Exception:
+                    # If parsing fails, log the entire line as info
+                    logger.info(line)
         
-        return {
-            "status": "success",
-            "process": process
-        }
+        if process.stderr:
+            for line in process.stderr.splitlines():
+                line = line.strip()
+                if not line:
+                    continue
+                    
+                # Parse the log line to extract level and message
+                try:
+                    # Check if the line contains a log level
+                    if " - INFO - " in line:
+                        logger.info(line.split(" - INFO - ")[-1])
+                    elif " - ERROR - " in line:
+                        logger.error(line.split(" - ERROR - ")[-1])
+                    elif " - WARNING - " in line:
+                        logger.warning(line.split(" - WARNING - ")[-1])
+                    else:
+                        # If no level is found, log as error
+                        logger.error(line)
+                except Exception:
+                    # If parsing fails, log the entire line as error
+                    logger.error(line)
+        
+        # Check if the process was successful
+        if process.returncode == 0:
+            return {
+                "status": "success",
+                "message": "Script executed successfully"
+            }
+        else:
+            raise Exception(f"Script failed with return code: {process.returncode}")
+            
     except Exception as e:
         raise HTTPException(
             status_code=500,
@@ -259,90 +198,87 @@ def run_script(script_path: str) -> Dict[str, Any]:
             }
         )
 
-@app.get("/")
-async def root():
-    logger.info("Root endpoint accessed")
-    return {"message": "Stock Analysis API is running"}
-
-@app.post("/chat")
-async def chat(request: ChatRequest):
-    """Execute the stock analyzer with a query"""
-    logger.info(f"Chat request received with query: {request.query}")
-    try:
-        # Import the analyze_stock_query function
-        sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-        from YOUTUBE.stock_analyzer import analyze_stock_query
-        
-        # Execute the analysis and stream results
-        result = analyze_stock_query(request.query)
-        await manager.broadcast({
-            "type": "chat_response",
-            "data": result
-        })
-        return {"status": "processing"}
-    except Exception as e:
-        logger.error(f"Chat analysis failed: {str(e)}")
-        await manager.broadcast({
-            "type": "error",
-            "data": str(e)
-        })
-        raise HTTPException(
-            status_code=500,
-            detail={
-                "status": "error",
-                "error": str(e)
-            }
-        )
-
-@app.post("/execute/youtube-fetcher")
+@app.post("/execute/youtube-fetcher", response_class=JSONResponse)
 async def execute_youtube_fetcher():
     """Execute the YouTube fetcher tool"""
-    result = run_script("YOUTUBE/Tools/youtube_fetcher_tool.py")
-    if result["status"] == "success":
-        await manager.broadcast({
-            "type": "process_started",
-            "data": "YouTube fetcher process started"
-        })
-        return {"status": "processing"}
-    return result
+    log_buffer.clear()  # Clear previous logs
+    logger.info("Starting YouTube fetcher process")
+    try:
+        result = run_script("YOUTUBE/Tools/youtube_fetcher_tool.py")
+        return {
+            "status": result["status"],
+            "message": result.get("message", ""),
+            "logs": log_buffer.get_recent_logs()
+        }
+    except Exception as e:
+        logger.error(f"YouTube fetcher failed: {str(e)}")
+        return {
+            "status": "error",
+            "error": str(e),
+            "logs": log_buffer.get_recent_logs()
+        }
 
-@app.post("/execute/transcript-analyzer")
+@app.post("/execute/transcript-analyzer", response_class=JSONResponse)
 async def execute_transcript_analyzer():
     """Execute the transcript analyzer tool"""
-    result = run_script("YOUTUBE/Tools/transcript_analyzer_tool.py")
-    if result["status"] == "success":
-        await manager.broadcast({
-            "type": "process_started",
-            "data": "Transcript analyzer process started"
-        })
-        return {"status": "processing"}
-    return result
+    log_buffer.clear()  # Clear previous logs
+    logger.info("Starting transcript analyzer process")
+    try:
+        result = run_script("YOUTUBE/Tools/transcript_analyzer_tool.py")
+        return {
+            "status": result["status"],
+            "message": result.get("message", ""),
+            "logs": log_buffer.get_recent_logs()
+        }
+    except Exception as e:
+        logger.error(f"Transcript analyzer failed: {str(e)}")
+        return {
+            "status": "error",
+            "error": str(e),
+            "logs": log_buffer.get_recent_logs()
+        }
 
-@app.post("/execute/yahoo-tool")
+@app.post("/execute/yahoo-tool", response_class=JSONResponse)
 async def execute_yahoo_tool():
     """Execute the Yahoo finance tool"""
-    result = run_script("YAHOO/Tools/yahoo_tool.py")
-    if result["status"] == "success":
-        await manager.broadcast({
-            "type": "process_started",
-            "data": "Yahoo finance tool process started"
-        })
-        return {"status": "processing"}
-    return result
+    log_buffer.clear()  # Clear previous logs
+    logger.info("Starting Yahoo finance tool process")
+    try:
+        result = run_script("YAHOO/Tools/yahoo_tool.py")
+        return {
+            "status": result["status"],
+            "message": result.get("message", ""),
+            "logs": log_buffer.get_recent_logs()
+        }
+    except Exception as e:
+        logger.error(f"Yahoo tool failed: {str(e)}")
+        return {
+            "status": "error",
+            "error": str(e),
+            "logs": log_buffer.get_recent_logs()
+        }
 
-@app.post("/execute/process-analysis")
+@app.post("/execute/process-analysis", response_class=JSONResponse)
 async def execute_process_analysis():
     """Execute the process analysis script"""
-    result = run_script("YOUTUBE/process_analysis.py")
-    if result["status"] == "success":
-        await manager.broadcast({
-            "type": "process_started",
-            "data": "Process analysis started"
-        })
-        return {"status": "processing"}
-    return result
+    log_buffer.clear()  # Clear previous logs
+    logger.info("Starting process analysis")
+    try:
+        result = run_script("YOUTUBE/process_analysis.py")
+        return {
+            "status": result["status"],
+            "message": result.get("message", ""),
+            "logs": log_buffer.get_recent_logs()
+        }
+    except Exception as e:
+        logger.error(f"Process analysis failed: {str(e)}")
+        return {
+            "status": "error",
+            "error": str(e),
+            "logs": log_buffer.get_recent_logs()
+        }
 
 if __name__ == "__main__":
     logger.info("Starting Stock Analysis API server")
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000, log_level="info") 
+    uvicorn.run(app, host="0.0.0.0", port=8001, log_level="info") 

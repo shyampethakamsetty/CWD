@@ -149,35 +149,35 @@ def refine_response_with_llm(query: str, analysis_result: Dict[str, Any]) -> str
     """
     try:
         prompt = f"""
-        Based on the following user query and analysis results, generate a clear, concise, and user-friendly response.
-Focus on the most relevant information and present it in a straightforward manner.
+You are a helpful financial assistant. Based on the user's query and the analysis results below, generate a response that is clear, concise, and directly answers the query using only the most relevant information.
 
 User Query: {query}
 
 Analysis Results:
 {json.dumps(analysis_result, indent=2)}
 
-Guidelines:
-1. Start with the most important information first
-2. Use clear, non-technical language
-3. Include specific numbers and data points when available
-4. Keep the response concise and to the point
-5. If there are multiple stocks mentioned, organize the information clearly
-6. If there's an error, explain it in simple terms
+Instructions:
+- Only include information directly related to the user's query.
+- Use plain, non-technical language.
+- Prioritize key insights and include specific data points (e.g., price levels, trends).
+- If multiple stocks are mentioned, only refer to those relevant to the query.
+- Keep the response short and focused.
+- If data is missing or unclear, explain that briefly.
 """
-        
+
         response = openai.chat.completions.create(
-            model=deployment_name,
-            messages=[
-                 {"role": "system", "content": "You are a helpful financial assistant that provides clear, concise, and accurate information about stocks."},
+    model=deployment_name,
+    messages=[
+        {"role": "system", "content": "You are a helpful financial assistant that provides clear, concise, and accurate information about stocks."},
         {"role": "user", "content": prompt}
-            ],
-            temperature=0.3,
-            max_tokens=500,
-            top_p=0.95
-        )
-        
+    ],
+    temperature=0.3,
+    max_tokens=500,
+    top_p=0.95
+)
+
         return response.choices[0].message.content.strip()
+
         
     except Exception as e:
         return f"Error generating refined response: {str(e)}"
@@ -238,8 +238,8 @@ def analyze_stock_query(query: str) -> Dict[str, Any]:
             "error": str(e)
         }
         # Generate refined error response using LLM
-        refined_response = refine_response_with_llm(query, error_response)
-        error_response["refined_response"] = refined_response
+        response = refine_response_with_llm(query, error_response)
+        error_response["refined_response"] = response
         return error_response
 
 # Example usage:
@@ -248,6 +248,4 @@ if __name__ == "__main__":
     query = input()
     result = analyze_stock_query(query)
     print("\nRefined Response:")
-    print(result["refined_response"])
-    print("\nDetailed Analysis:")
-    print(json.dumps(result, indent=2)) 
+    print(result["response"])

@@ -26,9 +26,10 @@ def main():
             with st.spinner("Analyzing..."):
                 # Get analysis from stock_analyzer
                 analysis_result = analyze_stock_query(prompt)
-                # Display raw response
-                st.json(analysis_result)
-                st.session_state.messages.append({"role": "assistant", "content": str(analysis_result)})
+                # Display only the refined response
+                st.markdown(analysis_result["refined_response"])
+                print(analysis_result["refined_response"])
+                st.session_state.messages.append({"role": "assistant", "content": analysis_result["refined_response"]})
 
 if __name__ == "__main__":
     main() 

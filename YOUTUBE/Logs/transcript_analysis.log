@@ -12,3 +12,53 @@
 2025-05-17 19:50:15,680 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
 2025-05-17 19:50:15,684 - INFO - Processed njjReNm2m_M.json successfully
 2025-05-17 19:50:15,685 - INFO - Transcript analysis completed
+2025-05-18 09:44:44,000 - INFO - Starting transcript analysis
+2025-05-18 09:44:45,866 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 09:44:45,869 - INFO - Processed BdczzLwtxgU.json successfully
+2025-05-18 09:44:51,710 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 09:44:51,723 - INFO - Processed M4tTlmbn-ak.json successfully
+2025-05-18 09:44:52,827 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 09:44:52,827 - INFO - Processed njjReNm2m_M.json successfully
+2025-05-18 09:44:52,827 - INFO - Transcript analysis completed
+2025-05-18 09:58:05,383 - INFO - Starting transcript analysis
+2025-05-18 09:58:07,329 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 09:58:07,329 - INFO - Processed 5GFtAfmfme8.json successfully
+2025-05-18 09:58:08,367 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 09:58:08,369 - INFO - Processed ivEDUMpCpBo.json successfully
+2025-05-18 09:58:09,352 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 09:58:09,362 - INFO - Processed k9be279ifrg.json successfully
+2025-05-18 09:58:26,456 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 09:58:26,460 - ERROR - Error analyzing transcript: Expecting value: line 299 column 26 (char 9299)
+2025-05-18 09:58:26,460 - INFO - Processed M4tTlmbn-ak.json successfully
+2025-05-18 09:58:31,778 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 09:58:31,788 - INFO - Processed QD0M_YK6Q4k.json successfully
+2025-05-18 09:58:32,491 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 09:58:32,495 - INFO - Processed SHtmD-2wT1E.json successfully
+2025-05-18 09:58:33,565 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 09:58:33,574 - INFO - Processed WYdnKpdCsf8.json successfully
+2025-05-18 09:58:34,500 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 09:58:34,510 - INFO - Processed xI2FXVgOsJU.json successfully
+2025-05-18 09:58:35,659 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 09:58:35,664 - INFO - Processed YmAKeS0LjWE.json successfully
+2025-05-18 09:58:35,664 - INFO - Transcript analysis completed
+2025-05-18 10:00:05,539 - INFO - Starting transcript analysis
+2025-05-18 10:00:07,950 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 10:00:07,955 - INFO - Processed 5GFtAfmfme8.json successfully
+2025-05-18 10:00:09,000 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 10:00:09,010 - INFO - Processed ivEDUMpCpBo.json successfully
+2025-05-18 10:00:10,071 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 10:00:10,075 - INFO - Processed k9be279ifrg.json successfully
+2025-05-18 10:00:25,779 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 10:00:25,783 - ERROR - Error analyzing transcript: Expecting property name enclosed in double quotes: line 300 column 12 (char 9312)
+2025-05-18 10:00:25,784 - INFO - Processed M4tTlmbn-ak.json successfully
+2025-05-18 10:00:29,192 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 10:00:29,197 - INFO - Processed QD0M_YK6Q4k.json successfully
+2025-05-18 10:00:30,048 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 10:00:30,048 - INFO - Processed SHtmD-2wT1E.json successfully
+2025-05-18 10:00:30,998 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 10:00:31,002 - INFO - Processed WYdnKpdCsf8.json successfully
+2025-05-18 10:00:32,009 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 10:00:32,009 - INFO - Processed xI2FXVgOsJU.json successfully
+2025-05-18 10:00:33,039 - INFO - HTTP Request: POST https://cwt-east.openai.azure.com//openai/deployments/gpt-4o-mini/chat/completions?api-version=2024-02-15-preview "HTTP/1.1 200 OK"
+2025-05-18 10:00:33,045 - INFO - Processed YmAKeS0LjWE.json successfully
+2025-05-18 10:00:33,045 - INFO - Transcript analysis completed

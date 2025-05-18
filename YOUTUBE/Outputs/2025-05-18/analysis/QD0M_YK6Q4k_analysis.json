@@ -1,0 +1,61 @@
+{
+  "analysis_id": "20250518_100029",
+  "timestamp": "2025-05-18T10:00:29.192657",
+  "source": {
+    "type": "youtube_transcript",
+    "model": "gpt-4o-mini",
+    "version": "1.0"
+  },
+  "stocks": [
+    {
+      "symbol": "AAPL",
+      "last_close": 211.26,
+      "direction": "bearish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "neutral",
+      "summary": "Apple dipped slightly."
+    },
+    {
+      "symbol": "MSFT",
+      "last_close": 454.27,
+      "direction": "bullish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "neutral",
+      "summary": "Microsoft gained modestly."
+    },
+    {
+      "symbol": "TSLA",
+      "last_close": 349.98,
+      "direction": "bullish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "neutral",
+      "summary": "Tesla rose over 2%."
+    },
+    {
+      "symbol": "NFLX",
+      "last_close": 1191.53,
+      "direction": "bullish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "neutral",
+      "summary": "Netflix set another all-time high."
+    },
+    {
+      "symbol": "NVDA",
+      "last_close": 135.4,
+      "direction": "bullish",
+      "resistance_levels": [],
+      "support_levels": [],
+      "indicators": [],
+      "sentiment": "neutral",
+      "summary": "Nvidia gained modestly."
+    }
+  ]
+}
