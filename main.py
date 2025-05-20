@@ -54,10 +54,10 @@ print("PYTHON EXECUTABLE:", sys.executable)
 
 app = FastAPI(title="Stock Analysis API")
 
-# Add CORS middleware
+# Add CORS middleware with specific origins if needed
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=["*"],  # You may want to restrict this to specific origins
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
